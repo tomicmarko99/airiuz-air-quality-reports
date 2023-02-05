@@ -59,15 +59,23 @@ const WorstOffenders = ({ woffCountries }) => {
           })}
         </div>
         <div className="text-very-light-grey flex flex-col gap-2 order-1 md:order-2">
-          <h1 className="text-[24px] md:text-[40px] font-semibold text-very-dark-grey">Global Air Quality Report</h1>
-          <div className="text-[18px] md:text-[22px] text-dark-cyan">The Most Polluted Countries in Real-Time</div>
+          <h1 className="text-[24px] md:text-[40px] font-semibold text-very-dark-grey">
+            Global Air Quality Report
+          </h1>
+          <div className="text-[18px] md:text-[22px] text-soft-blue">
+            The Most Polluted Countries in Real-Time
+          </div>
           <p className="text-[14px] md:text-[16px]">
-            Stay informed about the state of the air you breathe. Discover the top 5 countries with the worst air
-            quality and learn about their pollution levels and status. Keep up with the latest air quality trends and
-            take action for a healthier environment.
+            Stay informed about the state of the air you breathe. Discover the
+            top 5 countries with the worst air quality and learn about their
+            pollution levels and status. Keep up with the latest air quality
+            trends and take action for a healthier environment.
           </p>
-          <div className="flex text-dark-cyan">
-            <Link to="/" className="text-[16px] font-medium flex items-center gap-2">
+          <div className="flex text-soft-blue">
+            <Link
+              to="/"
+              className="text-[16px] font-medium flex items-center gap-2"
+            >
               See All Rankings <FaChevronRight />
             </Link>
           </div>

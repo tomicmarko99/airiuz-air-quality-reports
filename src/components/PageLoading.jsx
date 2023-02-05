@@ -13,7 +13,9 @@ const PageLoading = ({ children }) => {
   return (
     <>
       <PageLoadingComponent
-        className={`bg-[#396FF3] fixed top-0 left-0 w-full h-full z-50 ${showContent ? "hidden" : ""}`}
+        className={`bg-dark-blue fixed top-0 left-0 w-full h-full z-50 ${
+          showContent ? "hidden" : ""
+        }`}
       >
         <div className="flex justify-center items-center h-full">
           <div className="spinner text-gray-700">

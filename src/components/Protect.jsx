@@ -14,16 +14,21 @@ const Protect = () => {
           <h1 className="text-[24px] md:text-[40px] font-semibold text-very-dark-grey">
             Protecting from Air Pollution
           </h1>
-          <h2 className="text-[18px] md:text-[22px] text-dark-cyan">Essential tips</h2>
+          <h2 className="text-[18px] md:text-[22px] text-soft-blue">
+            Essential tips
+          </h2>
           <p className="text-[14px] md:text-[16px]">
-            Protect yourself and your family from air pollution with these essential tips:
+            Protect yourself and your family from air pollution with these
+            essential tips:
           </p>
           <div className="pl-[20px] text-[14px] md:text-[16px]">
             <li>Wear a face mask in high pollution areas.</li>
             <li>Limit outdoor exposure during high pollution times.</li>
             <li>Use pollution-resistant plants in your home or garden.</li>
             <li>Adopt clean energy sources like wind and solar power.</li>
-            <li>Increase indoor physical activity during high pollution times.</li>
+            <li>
+              Increase indoor physical activity during high pollution times.
+            </li>
           </div>
         </div>
       </div>

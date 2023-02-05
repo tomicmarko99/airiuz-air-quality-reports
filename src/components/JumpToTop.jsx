@@ -13,7 +13,10 @@ const JumpToTop = () => {
   }, []);
 
   const handleScroll = () => {
-    if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+    if (
+      document.body.scrollTop > 220 ||
+      document.documentElement.scrollTop > 220
+    ) {
       setJump(true);
     } else {
       setJump(false);
@@ -23,7 +26,7 @@ const JumpToTop = () => {
   const handleClick = () => {
     const start = window.pageYOffset;
     const to = 0;
-    const duration = 100;
+    const duration = 300;
     let startTime = null;
 
     const scroll = (time) => {

@@ -30,11 +30,13 @@ const Navbar = () => {
         <Link to="/" className="text-xl  font-medium">
           AIRIUZ
         </Link>
-        <div className="hidden md:flex gap-4 text-xl font-[500]">
-          <Link to="/">Pollution</Link>
-          <Link to="/">Awareness</Link>
+        <div className="hidden md:flex gap-6 text-xl font-[500]">
           <Link to="/">About</Link>
+          <Link to="/">Blog</Link>
+          <Link to="/">Resources</Link>
           <Link to="/">FAQs</Link>
+          <Link to="/">Contact</Link>
+          <Link to="/">Privacy Policy</Link>
         </div>
         <div className="md:hidden cursor-pointer text-xl">
           {expanded ? (
@@ -46,23 +48,47 @@ const Navbar = () => {
         <div
           className={`mobileMenu z-20 md:hidden fixed top-0 ${
             expanded ? "right-0" : "-right-[150%] bg-blueberry-blue"
-          } w-[70vw] h-screen py-6 shadow-2xl bg-very-dark-white flex flex-col list-none transition-all duration-[.3s] ease-linear`}
+          } w-[70vw] h-screen py-6 shadow-2xl bg-white flex flex-col list-none transition-all duration-[.3s] ease-linear`}
         >
           <div className="text-xl text-very-dark-grey w-full mb-2 px-5 cursor-pointer">
             <AiOutlineClose onClick={() => changeExpanded()} />
           </div>
           <div className="text-xl text-very-dark-grey font-[500] flex flex-col my-5">
-            <Link to="/" className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5">
-              Pollution
-            </Link>
-            <Link to="/" className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5">
-              Awareness
-            </Link>
-            <Link to="/" className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5">
+            <Link
+              to="/"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+            >
               About
             </Link>
-            <Link to="/" className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5">
+            <Link
+              to="/"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+            >
+              Blog
+            </Link>
+            <Link
+              to="/"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+            >
+              Resources
+            </Link>
+            <Link
+              to="/"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+            >
               FAQs
+            </Link>
+            <Link
+              to="/"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+            >
+              Contact
+            </Link>
+            <Link
+              to="/"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+            >
+              Privacy Policy
             </Link>
           </div>
         </div>

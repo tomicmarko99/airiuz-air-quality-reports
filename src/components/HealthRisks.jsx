@@ -11,12 +11,17 @@ const HealthRisks = () => {
           <h1 className="text-[24px] md:text-[40px] font-semibold text-very-dark-grey">
             Health Risks of Air Pollution
           </h1>
-          <h2 className="text-[18px] md:text-[22px] text-dark-cyan">The Impact of Air Pollution on Our Health</h2>
+          <h2 className="text-[18px] md:text-[22px] text-soft-blue">
+            The Impact of Air Pollution on Our Health
+          </h2>
           <p className="text-[14px] md:text-[16px]">
-            Air pollution has a wide range of negative effects on human health. Long-term exposure to polluted air can
-            lead to respiratory problems, such as asthma and bronchitis. It can also increase the risk of heart disease
-            and stroke, as well as harm the nervous system and cause developmental problems in children. In addition,
-            air pollution has been linked to an increased risk of certain cancers, such as lung cancer.
+            Air pollution has a wide range of negative effects on human health.
+            Long-term exposure to polluted air can lead to respiratory problems,
+            such as asthma and bronchitis. It can also increase the risk of
+            heart disease and stroke, as well as harm the nervous system and
+            cause developmental problems in children. In addition, air pollution
+            has been linked to an increased risk of certain cancers, such as
+            lung cancer.
           </p>
         </div>
         <div>

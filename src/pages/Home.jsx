@@ -10,7 +10,6 @@ import WorstOffenders from "../components/WorstOffenders";
 const Home = ({ currentCity, woff }) => {
   return (
     <div className="bg-concrete-white">
-      <PageLoading />
       <Hero aqiData={currentCity.data} />
       <WorstOffenders woffCountries={woff} />
       <HealthRisks />
