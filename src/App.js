@@ -7,6 +7,7 @@ import Station from "./routes/Station";
 import JumpToTop from "./components/JumpToTop";
 import Footer from "./components/Footer";
 import PageLoading from "./components/PageLoading";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const App = () => {
   const hereUrl =
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/city" element={<Station />}>
           <Route path=":cityName" element={<Station />} />
         </Route>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <JumpToTop />
       <Footer />

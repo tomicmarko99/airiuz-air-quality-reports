@@ -9,7 +9,7 @@ import WorstOffenders from "../components/WorstOffenders";
 
 const Home = ({ currentCity, woff }) => {
   return (
-    <div className="bg-concrete-white">
+    <div className="bg-white">
       <Hero aqiData={currentCity.data} />
       <WorstOffenders woffCountries={woff} />
       <HealthRisks />

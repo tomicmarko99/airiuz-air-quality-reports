@@ -1,9 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../assets/airiuz-logo.png";
 import { AiOutlineMenu, AiOutlineMinus, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
+  const [loc, setLoc] = useState(true);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname !== "/") {
+      setLoc(false);
+    } else {
+      setLoc(true);
+    }
+  });
+
   const [expanded, setExpanded] = useState(false);
   const [color, setColor] = useState("");
 
@@ -21,6 +32,13 @@ const Navbar = () => {
     };
     window.addEventListener("scroll", changeColor);
   }, []);
+
+  useEffect(() => {
+    if (loc != true) {
+      setColor("#2D65E9");
+    }
+  });
+
   return (
     <div
       style={{ backgroundColor: color }}
@@ -36,7 +54,7 @@ const Navbar = () => {
           <Link to="/">Resources</Link>
           <Link to="/">FAQs</Link>
           <Link to="/">Contact</Link>
-          <Link to="/">Privacy Policy</Link>
+          <Link to="/privacy-policy">Privacy</Link>
         </div>
         <div className="md:hidden cursor-pointer text-xl">
           {expanded ? (
@@ -56,39 +74,45 @@ const Navbar = () => {
           <div className="text-xl text-very-dark-grey font-[500] flex flex-col my-5">
             <Link
               to="/"
+              onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
               About
             </Link>
             <Link
               to="/"
+              onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
               Blog
             </Link>
             <Link
               to="/"
+              onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
               Resources
             </Link>
             <Link
               to="/"
+              onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
               FAQs
             </Link>
             <Link
               to="/"
+              onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
               Contact
             </Link>
             <Link
-              to="/"
+              to="/privacy-policy"
+              onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
-              Privacy Policy
+              Privacy
             </Link>
           </div>
         </div>
