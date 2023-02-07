@@ -34,6 +34,18 @@ const PrivacyPolicy = () => {
               </div>
             </div>
             <div className="flex flex-col gap-2">
+              <div className="font-semibold">Use of Google Console</div>
+              <div>
+                We, Airiuz, plan to connect Google Console to our website for
+                the purpose of tracking website traffic. This integration will
+                allow us to collect anonymous information about website usage,
+                including number of visits, session duration, and pages used.
+                This information will help us improve the functionality and
+                design of our website, as well as deliver more relevant content
+                and features to our users.
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
               <div className="font-semibold">Information Usage</div>
               <div>
                 The information collected on our Site is solely used to provide
