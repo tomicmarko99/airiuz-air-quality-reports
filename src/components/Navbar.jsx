@@ -34,7 +34,7 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    if (loc != true) {
+    if (loc !== true) {
       setColor("#2D65E9");
     }
   });
@@ -49,7 +49,7 @@ const Navbar = () => {
           AIRIUZ
         </Link>
         <div className="hidden md:flex gap-6 text-xl font-[500]">
-          <Link to="/">About</Link>
+          <Link to="/about">About</Link>
           <Link to="/">Blog</Link>
           <Link to="/">Resources</Link>
           <Link to="/">FAQs</Link>
@@ -73,7 +73,7 @@ const Navbar = () => {
           </div>
           <div className="text-xl text-very-dark-grey font-[500] flex flex-col my-5">
             <Link
-              to="/"
+              to="/about"
               onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >

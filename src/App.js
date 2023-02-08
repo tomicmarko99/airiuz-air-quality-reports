@@ -8,6 +8,8 @@ import JumpToTop from "./components/JumpToTop";
 import Footer from "./components/Footer";
 import PageLoading from "./components/PageLoading";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ScrollToTop from "./components/ScrollToTop";
+import About from "./pages/About";
 
 const App = () => {
   const hereUrl =
@@ -31,6 +33,7 @@ const App = () => {
     <>
       <Navbar />
       <PageLoading />
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
@@ -40,6 +43,7 @@ const App = () => {
           <Route path=":cityName" element={<Station />} />
         </Route>
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <JumpToTop />
       <Footer />

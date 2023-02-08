@@ -27,7 +27,7 @@ const Footer = () => {
               Info
             </div>
             <div className="flex flex-col gap-2 text-[14px] md:text-[16px] text-very-dark-white font-semibold">
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
               <Link to="/">Blog</Link>
               <Link to="/">Resources</Link>
               <Link to="/">FAQs</Link>
