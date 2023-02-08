@@ -3,7 +3,7 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div className="bg-white">
-      <div className="w-full px-5 py-16 pt-28 flex justify-center align-center min-h-[100vh]">
+      <div className="w-full px-5 py-16 pt-28 flex justify-center align-center">
         <div className="w-full max-w-[1080px] text-very-dark-grey items-center">
           <div className="text-[24px] md:text-[40px] font-semibold">
             Privacy Statement - Airiuz

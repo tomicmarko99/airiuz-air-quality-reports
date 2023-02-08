@@ -10,6 +10,7 @@ import PageLoading from "./components/PageLoading";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
+import Faqs from "./pages/Faqs";
 
 const App = () => {
   const hereUrl =
@@ -42,8 +43,9 @@ const App = () => {
         <Route path="/city" element={<Station />}>
           <Route path=":cityName" element={<Station />} />
         </Route>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/about" element={<About />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <JumpToTop />
       <Footer />

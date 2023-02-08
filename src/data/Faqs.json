@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is Airiuz?",
+    "answer": "Airiuz is an innovative air quality monitoring platform designed to keep people informed about the quality of air they breathe. With real-time air quality data for locations around the world, we aim to increase awareness about air pollution and its impact on our health and the environment."
+  },
+  {
+    "question": "What sources does Airiuz use for air quality data?",
+    "answer": "Airiuz obtains its data from the World Air Quality Index (WAQI). We strive to provide accurate and up-to-date information to our users, however, we cannot guarantee its accuracy and completeness. The information provided by Airiuz should be used for informational purposes only and is not intended as a substitute for professional advice."
+  },
+  {
+    "question": "Is the air quality information provided by Airiuz real-time?",
+    "answer": "Yes, the air quality data provided by Airiuz is updated in real-time from the World Air Quality Index (WAQI). This ensures that our users have access to the most up-to-date information about air quality in their location."
+  },
+  {
+    "question": "What measures can I take to protect myself from air pollution?",
+    "answer": "The measures you can take to protect yourself from air pollution will vary depending on the levels of pollution in your area. However, some general recommendations include staying indoors during periods of high air pollution, avoiding outdoor activities during heavy traffic, and wearing a mask when necessary. Additionally, you can take steps to improve indoor air quality, such as using air purifiers and avoiding the use of chemicals and products that can emit harmful pollutants."
+  },
+  {
+    "question": "Is Airiuz affiliated with any government organizations or agencies?",
+    "answer": "No, Airiuz is not affiliated with any government organizations or agencies. We are an independent platform dedicated to providing accurate and reliable information about air quality to the general public."
+  },
+  {
+    "question": "Can I trust the information provided by Airiuz?",
+    "answer": "While we strive to provide accurate and up-to-date information about air quality, we cannot guarantee its accuracy. The information provided by Airiuz should be used for informational purposes only and is not intended as a substitute for professional advice. Our goal is to raise awareness about air pollution and its impact on our health and the environment."
+  }
+]

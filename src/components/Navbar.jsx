@@ -52,7 +52,7 @@ const Navbar = () => {
           <Link to="/about">About</Link>
           <Link to="/">Blog</Link>
           <Link to="/">Resources</Link>
-          <Link to="/">FAQs</Link>
+          <Link to="/faqs">FAQs</Link>
           <Link to="/">Contact</Link>
           <Link to="/privacy-policy">Privacy</Link>
         </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
               Resources
             </Link>
             <Link
-              to="/"
+              to="/faqs"
               onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
