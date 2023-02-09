@@ -18,7 +18,11 @@ const Station = () => {
     }
   });
   console.log(`current city: ${fixedCity}`);
-  return <div>{fixedCity}</div>;
+  return (
+    <div className="w-full bg-white px-5 py-16 pt-28 flex justify-center align-center">
+      {cityName}
+    </div>
+  );
 };
 
 export default Station;

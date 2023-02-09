@@ -11,6 +11,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
 import Faqs from "./pages/Faqs";
+import Contact from "./pages/Contact";
+import Rankings from "./pages/Rankings";
 
 const App = () => {
   const hereUrl =
@@ -45,7 +47,9 @@ const App = () => {
         </Route>
         <Route path="/about" element={<About />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/rankings" element={<Rankings woff={woff.cities} />} />
       </Routes>
       <JumpToTop />
       <Footer />

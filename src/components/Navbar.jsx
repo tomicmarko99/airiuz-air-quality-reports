@@ -53,7 +53,7 @@ const Navbar = () => {
           <Link to="/">Blog</Link>
           <Link to="/">Resources</Link>
           <Link to="/faqs">FAQs</Link>
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
           <Link to="/privacy-policy">Privacy</Link>
         </div>
         <div className="md:hidden cursor-pointer text-xl">
@@ -101,7 +101,7 @@ const Navbar = () => {
               FAQs
             </Link>
             <Link
-              to="/"
+              to="/contact"
               onClick={changeExpanded}
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
             >
