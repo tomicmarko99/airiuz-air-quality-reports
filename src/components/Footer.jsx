@@ -27,12 +27,24 @@ const Footer = () => {
               Info
             </div>
             <div className="flex flex-col gap-2 text-[14px] md:text-[16px] text-very-dark-white font-semibold">
-              <Link to="/about">About</Link>
-              <Link to="/">Blog</Link>
-              <Link to="/">Resources</Link>
-              <Link to="/faqs">FAQs</Link>
-              <Link to="/">Contact</Link>
-              <Link to="/privacy-policy">Privacy</Link>
+              <Link to="/about" className="hover:text-white">
+                About
+              </Link>
+              <Link to="/" className="hover:text-white">
+                Blog
+              </Link>
+              <Link to="/" className="hover:text-white">
+                Resources
+              </Link>
+              <Link to="/faqs" className="hover:text-white">
+                FAQs
+              </Link>
+              <Link to="/" className="hover:text-white">
+                Contact
+              </Link>
+              <Link to="/privacy-policy" className="hover:text-white">
+                Privacy
+              </Link>
             </div>
           </div>
           <div>
@@ -40,10 +52,10 @@ const Footer = () => {
               Get In Touch
             </div>
             <div className="flex gap-2 text-[18px] md:text-[22px] text-very-dark-white font-semibold">
-              <a href="#">
+              <a href="#" className="hover:text-white">
                 <FaInstagramSquare />
               </a>
-              <a href="#">
+              <a href="#" className="hover:text-white">
                 <FaPinterestSquare />
               </a>
             </div>

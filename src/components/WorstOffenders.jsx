@@ -74,7 +74,7 @@ const WorstOffenders = ({ woffCountries }) => {
           <div className="flex text-soft-blue">
             <Link
               to="/rankings"
-              className="text-[16px] font-medium flex items-center gap-2"
+              className="text-[16px] font-medium flex items-center gap-2 hover:text-medium-blue transition ease-in duration-100"
             >
               See All Rankings <FaChevronRight />
             </Link>

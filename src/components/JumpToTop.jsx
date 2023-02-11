@@ -46,7 +46,7 @@ const JumpToTop = () => {
     <>
       {jump ? (
         <div
-          className="fixed bottom-5 right-5 z-10 p-3 text-very-dark-grey bg-[#F2CD5C] rounded-md cursor-pointer"
+          className="fixed bottom-5 right-5 z-10 p-3 text-very-dark-grey bg-soft-yellow hover:bg-light-yellow rounded-md cursor-pointer transition ease-in duration-100"
           onClick={handleClick}
         >
           <FaChevronUp />

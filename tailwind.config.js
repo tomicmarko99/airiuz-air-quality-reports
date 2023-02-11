@@ -8,6 +8,7 @@ module.exports = {
         "medium-blue": "#3770F3",
         "soft-blue": "#6F99FF",
         "soft-yellow": "#F2CD5C",
+        "light-yellow": "#ffdd75",
         "very-dark-grey": "#434242",
         "light-grey-lime": "#EAEBEA",
         "very-light-grey": "#757575",

@@ -10,7 +10,9 @@ const Search = ({ cityName, aqiData }) => {
   const [searchWord, setSearchWord] = useState("");
 
   const filteredCities = cities.filter((city) =>
-    latinize(city.ctname).toLowerCase().includes(latinize(searchWord).toLowerCase())
+    latinize(city.ctname)
+      .toLowerCase()
+      .includes(latinize(searchWord).toLowerCase())
   );
   return (
     <SearchComponent className="text-[16px] md:text-[18px] w-full rounded-md p-3 md:p-6 text-very-dark-white flex flex-col gap-8">
@@ -36,7 +38,7 @@ const Search = ({ cityName, aqiData }) => {
             <Link
               to={`/city/${city.ctname}`}
               key={index}
-              className="bg-[rgba(0,0,0,.2)] px-4 py-2 rounded flex justify-between items-center "
+              className="bg-[rgba(0,0,0,.2)] px-4 py-2 rounded flex justify-between items-center hover:text-white"
             >
               <div className="flex items-center gap-5 font-medium">
                 <ReactCountryFlag countryCode={city.country} />

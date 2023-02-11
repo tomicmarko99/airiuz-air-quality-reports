@@ -9,7 +9,7 @@ const QaComponent = ({ q, a }) => {
   };
   return (
     <div className="w-full px-5 py-4 flex flex-col text-[14px] md:text-[16px] text-very-dark-grey gap-2">
-      <div className="flex justify-between items-center font-semibold">
+      <div className="flex justify-between items-center font-semibold gap-5">
         <div className="">{q}</div>
         <div className="cursor-pointer">
           {active ? (

@@ -5,13 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 body::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
   background: #434242;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #338a9f;
-  border-radius: 5px;
+  background-color: #f2cd5c;
 }
 
 .search-results::-webkit-scrollbar {
@@ -35,7 +34,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 html {

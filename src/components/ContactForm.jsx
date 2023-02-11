@@ -49,17 +49,17 @@ const ContactForm = () => {
     <>
       <form
         onSubmit={handleSubmit}
-        className="w-full mx-auto mt-10 p-5 bg-white rounded-md shadow-md"
+        className="w-full mx-auto mt-5 p-5 bg-white rounded-md shadow-md"
       >
         <div className="mb-4">
           <label
             className="block font-medium text-gray-700 mb-2"
             htmlFor="name"
           >
-            Ime i prezime:
+            Full Name:
           </label>
           <input
-            className="w-full border border-gray-400 rounded-md p-2"
+            className="w-full border border-gray-400 rounded-md p-2 outline-none"
             type="text"
             id="name"
             name="name"
@@ -76,7 +76,7 @@ const ContactForm = () => {
             Email:
           </label>
           <input
-            className="w-full border border-gray-400 rounded-md p-2"
+            className="w-full border border-gray-400 rounded-md p-2 outline-none"
             type="email"
             id="email"
             name="email"
@@ -90,10 +90,10 @@ const ContactForm = () => {
             className="block font-medium text-gray-700 mb-2"
             htmlFor="message"
           >
-            Poruka:
+            Message:
           </label>
           <textarea
-            className="w-full border border-gray-400 rounded-md p-2"
+            className="w-full border border-gray-400 rounded-md p-2 outline-none"
             id="message"
             name="message"
             value={formData.message}

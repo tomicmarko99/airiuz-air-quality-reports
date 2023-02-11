@@ -49,12 +49,24 @@ const Navbar = () => {
           AIRIUZ
         </Link>
         <div className="hidden md:flex gap-6 text-xl font-[500]">
-          <Link to="/about">About</Link>
-          <Link to="/">Blog</Link>
-          <Link to="/">Resources</Link>
-          <Link to="/faqs">FAQs</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/privacy-policy">Privacy</Link>
+          <Link to="/about" className="hover:text-white">
+            About
+          </Link>
+          <Link to="/" className="hover:text-white">
+            Blog
+          </Link>
+          <Link to="/" className="hover:text-white">
+            Resources
+          </Link>
+          <Link to="/faqs" className="hover:text-white">
+            FAQs
+          </Link>
+          <Link to="/contact" className="hover:text-white">
+            Contact
+          </Link>
+          <Link to="/privacy-policy" className="hover:text-white">
+            Privacy
+          </Link>
         </div>
         <div className="md:hidden cursor-pointer text-xl">
           {expanded ? (
