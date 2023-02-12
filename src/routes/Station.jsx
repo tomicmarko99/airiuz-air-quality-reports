@@ -20,7 +20,14 @@ const Station = () => {
   console.log(`current city: ${fixedCity}`);
   return (
     <div className="w-full bg-white px-5 py-16 pt-28 flex justify-center align-center">
-      {cityName}
+      <div className="w-full max-w-[1080px] text-very-dark-grey items-center">
+        <div className="text-[24px] md:text-[40px] font-semibold">
+          Air Quality in {cityName}
+        </div>
+        <div className="text-[18px] md:text-[22px] text-soft-blue">
+          Air quality index (AQI) and PM2.5 air pollution in {cityName}
+        </div>
+      </div>
     </div>
   );
 };
