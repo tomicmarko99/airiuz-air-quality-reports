@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
@@ -17,7 +18,14 @@ const Station = () => {
       setFixedCity("Shtime");
     }
   });
-  console.log(`current city: ${fixedCity}`);
+  const stationUrl = `https://api.waqi.info/feed/${fixedCity}/?token=fe7f80903a47cd16d31da36d7bee8aa8d5eee45f`;
+  const [stationData, setStationData] = useState([]);
+  useEffect(() => {
+    axios.get(stationUrl).then((response) => {
+      setStationData(response.data);
+    });
+  }, []);
+  console.log(stationData);
   return (
     <div className="w-full bg-white px-5 py-16 pt-28 flex justify-center align-center">
       <div className="w-full max-w-[1080px] text-very-dark-grey items-center">

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import HashLoading from "./HashLoading";
 
 const PageLoading = ({ children }) => {
   const [showContent, setShowContent] = useState(false);
@@ -7,7 +8,7 @@ const PageLoading = ({ children }) => {
   useEffect(() => {
     setTimeout(() => {
       setShowContent(true);
-    }, 2000);
+    }, 3000);
   }, []);
 
   return (
@@ -18,11 +19,7 @@ const PageLoading = ({ children }) => {
         }`}
       >
         <div className="flex justify-center items-center h-full">
-          <div className="spinner text-gray-700">
-            <div className="bounce1" />
-            <div className="bounce2" />
-            <div className="bounce3" />
-          </div>
+          <HashLoading />
         </div>
       </PageLoadingComponent>
       {showContent && <>{children}</>}
@@ -33,44 +30,44 @@ const PageLoading = ({ children }) => {
 export default PageLoading;
 
 const PageLoadingComponent = styled.div`
-  .spinner {
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 80px;
-  }
+  // .spinner {
+  //   display: inline-block;
+  //   position: relative;
+  //   width: 80px;
+  //   height: 80px;
+  // }
 
-  .bounce1,
-  .bounce2,
-  .bounce3 {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: currentColor;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    left: 0;
+  // .bounce1,
+  // .bounce2,
+  // .bounce3 {
+  //   width: 100%;
+  //   height: 100%;
+  //   border-radius: 50%;
+  //   background-color: currentColor;
+  //   opacity: 0.6;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
 
-    animation: bounce 2s infinite ease-in-out;
-  }
+  //   animation: bounce 2s infinite ease-in-out;
+  // }
 
-  @keyframes bounce {
-    0%,
-    100% {
-      transform: scale(0);
-    }
+  // @keyframes bounce {
+  //   0%,
+  //   100% {
+  //     transform: scale(0);
+  //   }
 
-    50% {
-      transform: scale(1);
-    }
-  }
+  //   50% {
+  //     transform: scale(1);
+  //   }
+  // }
 
-  .bounce1 {
-    animation-delay: -1s;
-  }
+  // .bounce1 {
+  //   animation-delay: -1s;
+  // }
 
-  .bounce2 {
-    animation-delay: -0.5s;
-  }
+  // .bounce2 {
+  //   animation-delay: -0.5s;
+  // }
 `;
