@@ -1,4 +1,5 @@
 import React from "react";
+import Statf from "../functions/Statf";
 import ReactCountryFlag from "react-country-flag";
 import isoCountries, { registerLocale } from "i18n-iso-countries";
 registerLocale(require("i18n-iso-countries/langs/en.json"));
@@ -50,31 +51,6 @@ const Rankings = ({ woff }) => {
 
         {woff?.map((country, index) => {
           if (country.country !== "XK") {
-            let status = "";
-            let statusColor = "";
-            if (country.aqi >= 0 && country.aqi <= 50) {
-              status = "Good";
-              statusColor = "bg-status-good";
-            } else if (country.aqi >= 51 && country.aqi <= 100) {
-              status = "Moderate";
-              statusColor = "bg-status-moderate";
-            } else if (country.aqi >= 101 && country.aqi <= 150) {
-              status = "Unhealthy for Sensitive Groups";
-              statusColor = "bg-status-ufsg";
-            } else if (country.aqi >= 151 && country.aqi <= 200) {
-              status = "Unhealthy";
-              statusColor = "bg-status-unhealthy";
-            } else if (country.aqi >= 201 && country.aqi <= 300) {
-              status = "Very Unhealthy";
-              statusColor = "bg-status-vu";
-            } else if (country.aqi > 300) {
-              status = "Hazardous";
-              statusColor = "bg-status-hazardous";
-            } else {
-              status = "Undefined";
-              statusColor = "bg-status-undefined";
-            }
-
             return (
               <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center text-very-dark-grey">
                 <div className="flex gap-2 items-center">
@@ -83,7 +59,9 @@ const Rankings = ({ woff }) => {
                   <p>{getCountryName(country.country)}</p>
                 </div>
                 <div
-                  className={`status-box text-white p-1 ${statusColor} w-[60px] flex justify-center items-center rounded-md`}
+                  className={`status-box text-white p-1 ${Statf(
+                    country.aqi
+                  )} w-[60px] flex justify-center items-center rounded-md`}
                 >
                   {country.aqi}
                 </div>

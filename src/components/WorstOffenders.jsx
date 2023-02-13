@@ -2,6 +2,7 @@ import React from "react";
 import ReactCountryFlag from "react-country-flag";
 import { FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Statf from "../functions/Statf";
 import styled from "styled-components";
 import dwbg2 from "../assets/dw-bg-2.png";
 import isoCountries, { registerLocale } from "i18n-iso-countries";
@@ -19,30 +20,6 @@ const WorstOffenders = ({ woffCountries }) => {
         <div className="text-[16px] md:text-[18px] p-5 rounded-md bg-[#fafafa] shadow-md order-2 md:order-1 flex flex-col gap-3">
           <div className="mb-2 font-semibold">Top 5 most polluted:</div>
           {woffCountries?.slice(0, 5).map((country, index) => {
-            let status = "";
-            let statusColor = "";
-            if (country.aqi >= 0 && country.aqi <= 50) {
-              status = "Good";
-              statusColor = "bg-status-good";
-            } else if (country.aqi >= 51 && country.aqi <= 100) {
-              status = "Moderate";
-              statusColor = "bg-status-moderate";
-            } else if (country.aqi >= 101 && country.aqi <= 150) {
-              status = "Unhealthy for Sensitive Groups";
-              statusColor = "bg-status-ufsg";
-            } else if (country.aqi >= 151 && country.aqi <= 200) {
-              status = "Unhealthy";
-              statusColor = "bg-status-unhealthy";
-            } else if (country.aqi >= 201 && country.aqi <= 300) {
-              status = "Very Unhealthy";
-              statusColor = "bg-status-vu";
-            } else if (country.aqi > 300) {
-              status = "Hazardous";
-              statusColor = "bg-status-hazardous";
-            } else {
-              status = "Undefined";
-              statusColor = "bg-status-undefined";
-            }
             return (
               <div key={index} className="flex gap-3 justify-between">
                 <div className="flex gap-2 items-center">
@@ -50,7 +27,9 @@ const WorstOffenders = ({ woffCountries }) => {
                   <p>{getCountryName(country.country)}</p>
                 </div>
                 <div
-                  className={`status-box text-white p-1 ${statusColor} w-[60px] flex justify-center items-center rounded-md`}
+                  className={`status-box text-white p-1 ${Statf(
+                    country.aqi
+                  )} w-[60px] flex justify-center items-center rounded-md`}
                 >
                   {country.aqi}
                 </div>

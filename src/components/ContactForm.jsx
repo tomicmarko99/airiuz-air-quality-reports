@@ -102,7 +102,7 @@ const ContactForm = () => {
             required
           />
         </div>
-        <button className="bg-soft-blue text-white rounded-md py-2 px-4 hover:bg-medium-blue">
+        <button className="bg-medium-blue text-white rounded-md py-2 px-4 hover:bg-dark-blue">
           Send message
         </button>
       </form>

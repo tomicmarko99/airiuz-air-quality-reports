@@ -1,4 +1,4 @@
-import { useState, CSSProperties } from "react";
+import React from "react";
 import HashLoader from "react-spinners/HashLoader";
 
 const override = {
@@ -7,16 +7,15 @@ const override = {
 };
 
 function App() {
-  let [loading, setLoading] = useState(true);
   let color = "#F2CD5C";
 
   return (
     <div className="sweet-loading">
       <HashLoader
         color={color}
-        loading={loading}
+        loading={true}
         cssOverride={override}
-        size={100}
+        size={80}
         aria-label="Hash Loader"
         data-testid="loader"
       />
