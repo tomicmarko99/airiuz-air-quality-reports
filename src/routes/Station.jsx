@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import StationStatTrack from "../components/StationStatTrack";
 
 const Station = () => {
   const { cityName } = useParams();
@@ -25,9 +26,14 @@ const Station = () => {
       setStationData(response.data);
     });
   }, []);
-  console.log(stationData);
+  const [unknown, setUnknown] = useState(false);
+  useEffect(() => {
+    if (stationData.data === "Unknown station") {
+      setUnknown(true);
+    }
+  });
   return (
-    <div className="w-full bg-white px-5 py-16 pt-28 flex justify-center align-center">
+    <div className="w-full bg-bgr-white px-5 py-16 pt-28 flex justify-center align-center">
       <div className="w-full max-w-[1080px] text-very-dark-grey items-center">
         <div className="text-[24px] md:text-[40px] font-semibold">
           Air Quality in {cityName}
@@ -35,6 +41,15 @@ const Station = () => {
         <div className="text-[18px] md:text-[22px] text-soft-blue">
           Air quality index (AQI) and PM2.5 air pollution in {cityName}
         </div>
+        {unknown ? (
+          <div>Data not Found</div>
+        ) : (
+          <>
+            <div className="w-full mt-5">
+              <StationStatTrack aqi={stationData.data?.aqi} />
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
