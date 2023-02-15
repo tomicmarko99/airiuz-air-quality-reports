@@ -87,45 +87,55 @@ const Navbar = () => {
             <Link
               to="/about"
               onClick={changeExpanded}
-              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white  px-5"
             >
               About
             </Link>
             <Link
               to="/"
               onClick={changeExpanded}
-              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white px-5"
             >
               Blog
             </Link>
             <Link
               to="/"
               onClick={changeExpanded}
-              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white px-5"
             >
               Resources
             </Link>
             <Link
               to="/faqs"
               onClick={changeExpanded}
-              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white px-5"
             >
               FAQs
             </Link>
             <Link
-              to="/contact"
-              onClick={changeExpanded}
-              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
-            >
-              Contact
-            </Link>
-            <Link
               to="/privacy-policy"
               onClick={changeExpanded}
-              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-blueberry-soft px-5"
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white px-5"
             >
               Privacy
             </Link>
+            <div className="px-5 py-4 flex flex-col gap-3 border-y-2 border-glass-black mt-3">
+              <Link
+                to="/"
+                onClick={changeExpanded}
+                className="border-2 border-soft-blue hover:border-medium-blue rounded-md w-full px-3 py-1 text-soft-blue hover:text-medium-blue text-center"
+              >
+                Track AQI
+              </Link>
+
+              <Link
+                to="/contact"
+                onClick={changeExpanded}
+                className="border-2 border-soft-blue hover:border-medium-blue bg-soft-blue hover:bg-medium-blue rounded-md w-full px-3 py-1 text-white text-center"
+              >
+                Contact
+              </Link>
+            </div>
           </div>
         </div>
       </div>
