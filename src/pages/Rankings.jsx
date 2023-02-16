@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Statf from "../functions/Statf";
 import ReactCountryFlag from "react-country-flag";
 import isoCountries, { registerLocale } from "i18n-iso-countries";
+import { FaSearch } from "react-icons/fa";
 registerLocale(require("i18n-iso-countries/langs/en.json"));
 
 const Rankings = ({ woff }) => {
@@ -9,6 +10,18 @@ const Rankings = ({ woff }) => {
     const countryName = isoCountries.getName(`${cn}`, "en");
     return countryName;
   };
+  const countriesWithIds = woff?.map((country, index) => {
+    return { ...country, id: index + 1 };
+  });
+
+  const [searchWord, setSearchWord] = useState("");
+  const filteredCountries =
+    countriesWithIds?.filter((country) => {
+      return getCountryName(country.country)
+        .toLowerCase()
+        .includes(searchWord.toLowerCase());
+    }) ?? [];
+
   return (
     <div className="w-full bg-white text-very-dark-grey px-5 py-16 pt-28 flex flex-col items-center">
       <div className="text-[24px] md:text-[40px] font-semibold">
@@ -43,18 +56,41 @@ const Rankings = ({ woff }) => {
           <div>300+</div>
         </div>
       </div>
+      <div className="w-full mt-5 flex justify-center text-[16px] md:text-[18px]">
+        <div className="w-full max-w-[720px] flex items-center gap-5 justify-between">
+          <div>Search cuntry:</div>
+          <div className="flex">
+            <div className="flex items-center px-3 py-1 md:px-8 md:py-3 bg-soft-yellow text-very-dark-grey rounded-l">
+              <FaSearch />
+            </div>
+            <input
+              className="w-full bg-light-grey-lime px-3 py-1 rounded-r outline-none"
+              type="text"
+              placeholder="City name..."
+              onChange={(event) => {
+                setSearchWord(event.target.value);
+              }}
+            />
+          </div>
+        </div>
+      </div>
       <div className="text-[16px] md:text-[18px] w-full max-w-[720px] bg-light-grey-lime flex flex-col items-center mt-5 shadow rounded-md px-3 py-2 gap-2">
-        <div className="w-full text-very-dark-grey font-semibold flex justify-between px-3 py-2">
-          <div>Country</div>
+        <div className="w-full text-very-dark-grey font-semibold flex justify-between items-center px-2 py-2 gap-5">
+          <div className="flex gap-5">
+            <div>Rank</div>
+            <div>Country</div>
+          </div>
+
           <div>AQI</div>
         </div>
 
-        {woff?.map((country, index) => {
+        {filteredCountries?.map((country, index) => {
+          const idx = index + 1;
           if (country.country !== "XK") {
             return (
               <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center text-very-dark-grey">
                 <div className="flex gap-2 items-center">
-                  <p className="w-[36px] font-semibold">{index}.</p>
+                  <p className="w-[36px] font-semibold">{country.id}.</p>
                   <ReactCountryFlag countryCode={country.country} />
                   <p>{getCountryName(country.country)}</p>
                 </div>
