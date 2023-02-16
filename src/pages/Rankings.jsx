@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Statf from "../functions/Statf";
 import ReactCountryFlag from "react-country-flag";
 import isoCountries, { registerLocale } from "i18n-iso-countries";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaChevronDown, FaChevronUp } from "react-icons/fa";
 registerLocale(require("i18n-iso-countries/langs/en.json"));
 
 const Rankings = ({ woff }) => {
@@ -21,6 +21,21 @@ const Rankings = ({ woff }) => {
         .toLowerCase()
         .includes(searchWord.toLowerCase());
     }) ?? [];
+
+  const [more, setMore] = useState(true);
+
+  const showMore = () => {
+    setMore(!more);
+  };
+
+  const [sm, setSm] = useState(true);
+  useEffect(() => {
+    if (filteredCountries.length < 10) {
+      setSm(false);
+    } else {
+      setSm(true);
+    }
+  });
 
   return (
     <div className="w-full bg-white text-very-dark-grey px-5 py-16 pt-28 flex flex-col items-center">
@@ -84,27 +99,40 @@ const Rankings = ({ woff }) => {
           <div>AQI</div>
         </div>
 
-        {filteredCountries?.map((country, index) => {
-          const idx = index + 1;
-          if (country.country !== "XK") {
-            return (
-              <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center text-very-dark-grey">
-                <div className="flex gap-2 items-center">
-                  <p className="w-[36px] font-semibold">{country.id}.</p>
-                  <ReactCountryFlag countryCode={country.country} />
-                  <p>{getCountryName(country.country)}</p>
+        {filteredCountries
+          ?.slice(0, more ? 10 : undefined)
+          .map((country, index) => {
+            if (country.country !== "XK") {
+              return (
+                <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center text-very-dark-grey">
+                  <div className="flex gap-2 items-center">
+                    <p className="w-[36px] font-semibold">{country.id}.</p>
+                    <ReactCountryFlag countryCode={country.country} />
+                    <p>{getCountryName(country.country)}</p>
+                  </div>
+                  <div
+                    className={`status-box text-white p-1 ${Statf(
+                      country.aqi
+                    )} w-[60px] flex justify-center items-center rounded-md`}
+                  >
+                    {country.aqi}
+                  </div>
                 </div>
-                <div
-                  className={`status-box text-white p-1 ${Statf(
-                    country.aqi
-                  )} w-[60px] flex justify-center items-center rounded-md`}
-                >
-                  {country.aqi}
-                </div>
-              </div>
-            );
-          }
-        })}
+              );
+            }
+          })}
+      </div>
+      <div className="mt-5 text-[16px] md:text-[18px] text-very-dark-grey cursor-pointer">
+        {sm &&
+          (more ? (
+            <div onClick={showMore} className="flex gap-2 items-center">
+              Show more ({filteredCountries.length}) <FaChevronDown />
+            </div>
+          ) : (
+            <div onClick={showMore} className="flex gap-2 items-center">
+              Show less <FaChevronUp />
+            </div>
+          ))}
       </div>
     </div>
   );
