@@ -126,7 +126,7 @@ const Rankings = ({ woff }) => {
         {sm &&
           (more ? (
             <div onClick={showMore} className="flex gap-2 items-center">
-              Show more ({filteredCountries.length}) <FaChevronDown />
+              Show more ({filteredCountries.length - 10}) <FaChevronDown />
             </div>
           ) : (
             <div onClick={showMore} className="flex gap-2 items-center">
