@@ -8,9 +8,17 @@
   { "country": "SK", "city": "Ružomberok", "ctname": "Ružomberok" },
   { "country": "SK", "city": "Martin", "ctname": "Martin" },
   { "country": "SK", "city": "Banská Bystrica", "ctname": "Banská Bystrica" },
-  { "country": "SK", "city": "Vranov nad Topľou", "ctname": "Vranov nad Topľou" },
+  {
+    "country": "SK",
+    "city": "Vranov nad Topľou",
+    "ctname": "Vranov nad Topľou"
+  },
   { "country": "SK", "city": "Humenné", "ctname": "Humenné" },
-  { "country": "SK", "city": "Liptovský Mikuláš", "ctname": "Liptovský Mikuláš" },
+  {
+    "country": "SK",
+    "city": "Liptovský Mikuláš",
+    "ctname": "Liptovský Mikuláš"
+  },
   { "country": "SK", "city": "Lučenec", "ctname": "Lučenec" },
   { "country": "SK", "city": "Prešov", "ctname": "Prešov" },
   { "country": "SK", "city": "Žilina", "ctname": "Žilina" },
@@ -73,7 +81,11 @@
   { "country": "NG", "city": "Osogbo", "ctname": "Osogbo" },
   { "country": "NG", "city": "Maiduguri", "ctname": "Maiduguri" },
   { "country": "PE", "city": "Lima", "ctname": "Lima" },
-  { "country": "PE", "city": "Santiago de Surco", "ctname": "Santiago de Surco" },
+  {
+    "country": "PE",
+    "city": "Santiago de Surco",
+    "ctname": "Santiago de Surco"
+  },
   { "country": "PE", "city": "San Isidro", "ctname": "San Isidro" },
   { "country": "PE", "city": "Callao", "ctname": "Callao" },
   { "country": "PE", "city": "Trujillo", "ctname": "Trujillo" },
@@ -276,7 +288,11 @@
   { "country": "UA", "city": "Irpin", "ctname": "Irpin" },
   { "country": "UA", "city": "Boryspil’", "ctname": "Boryspil’" },
   { "country": "UA", "city": "Zaporizhia", "ctname": "Zaporizhia" },
-  { "country": "UA", "city": "Novohrad-Volynskyi", "ctname": "Novohrad-Volynskyi" },
+  {
+    "country": "UA",
+    "city": "Novohrad-Volynskyi",
+    "ctname": "Novohrad-Volynskyi"
+  },
   { "country": "UA", "city": "Kropyvnytskyi", "ctname": "Kropyvnytskyi" },
   { "country": "UA", "city": "Kolomyia", "ctname": "Kolomyia" },
   { "country": "UA", "city": "Stryi", "ctname": "Stryi" },
@@ -295,7 +311,11 @@
   { "country": "UA", "city": "Boyarka", "ctname": "Boyarka" },
   { "country": "UA", "city": "Kiliya", "ctname": "Kiliya" },
   { "country": "UA", "city": "Novyy Buh", "ctname": "Novyy Buh" },
-  { "country": "UA", "city": "Pereiaslav-Khmelnytskyi", "ctname": "Pereiaslav-Khmelnytskyi" },
+  {
+    "country": "UA",
+    "city": "Pereiaslav-Khmelnytskyi",
+    "ctname": "Pereiaslav-Khmelnytskyi"
+  },
   { "country": "LT", "city": "Vilnius", "ctname": "Vilnius" },
   { "country": "LT", "city": "Dainava (Kaunas)", "ctname": "Dainava (Kaunas)" },
   { "country": "LT", "city": "Šilainiai", "ctname": "Šilainiai" },
@@ -323,7 +343,11 @@
   { "country": "IT", "city": "Frosinone", "ctname": "Frosinone" },
   { "country": "IT", "city": "Cremona", "ctname": "Cremona" },
   { "country": "IT", "city": "Bergamo", "ctname": "Bergamo" },
-  { "country": "IT", "city": "Guidonia Montecelio", "ctname": "Guidonia Montecelio" },
+  {
+    "country": "IT",
+    "city": "Guidonia Montecelio",
+    "ctname": "Guidonia Montecelio"
+  },
   { "country": "IT", "city": "Livorno", "ctname": "Livorno" },
   { "country": "IT", "city": "Colleferro", "ctname": "Colleferro" },
   { "country": "IT", "city": "Saronno", "ctname": "Saronno" },
@@ -344,7 +368,11 @@
   { "country": "IT", "city": "Como", "ctname": "Como" },
   { "country": "IT", "city": "Piacenza", "ctname": "Piacenza" },
   { "country": "IT", "city": "Bologna", "ctname": "Bologna" },
-  { "country": "IT", "city": "Casalecchio di Reno", "ctname": "Casalecchio di Reno" },
+  {
+    "country": "IT",
+    "city": "Casalecchio di Reno",
+    "ctname": "Casalecchio di Reno"
+  },
   { "country": "IT", "city": "Pavia", "ctname": "Pavia" },
   { "country": "IT", "city": "Forlì", "ctname": "Forlì" },
   { "country": "IT", "city": "Parma", "ctname": "Parma" },
@@ -355,12 +383,28 @@
   { "country": "IT", "city": "Cervia", "ctname": "Cervia" },
   { "country": "IT", "city": "Rimini", "ctname": "Rimini" },
   { "country": "IT", "city": "Latina", "ctname": "Latina" },
-  { "country": "IT", "city": "Reggio nell'Emilia", "ctname": "Reggio nell'Emilia" },
-  { "country": "IT", "city": "Bellaria-Igea Marina", "ctname": "Bellaria-Igea Marina" },
+  {
+    "country": "IT",
+    "city": "Reggio nell'Emilia",
+    "ctname": "Reggio nell'Emilia"
+  },
+  {
+    "country": "IT",
+    "city": "Bellaria-Igea Marina",
+    "ctname": "Bellaria-Igea Marina"
+  },
   { "country": "IT", "city": "Cento", "ctname": "Cento" },
-  { "country": "IT", "city": "Fiumicino-Isola Sacra", "ctname": "Fiumicino-Isola Sacra" },
+  {
+    "country": "IT",
+    "city": "Fiumicino-Isola Sacra",
+    "ctname": "Fiumicino-Isola Sacra"
+  },
   { "country": "IT", "city": "Carpi Centro", "ctname": "Carpi Centro" },
-  { "country": "IT", "city": "Sesto San Giovanni", "ctname": "Sesto San Giovanni" },
+  {
+    "country": "IT",
+    "city": "Sesto San Giovanni",
+    "ctname": "Sesto San Giovanni"
+  },
   { "country": "IT", "city": "Cuneo", "ctname": "Cuneo" },
   { "country": "IT", "city": "Mondovì", "ctname": "Mondovì" },
   { "country": "IT", "city": "Fiorano", "ctname": "Fiorano" },
@@ -480,7 +524,11 @@
   { "country": "CH", "city": "Dübendorf", "ctname": "Dübendorf" },
   { "country": "CH", "city": "Zürich", "ctname": "Zürich" },
   { "country": "CH", "city": "Frauenfeld", "ctname": "Frauenfeld" },
-  { "country": "CH", "city": "Zürich (Kreis 4) / Aussersihl", "ctname": "Zürich (Kreis 4) / Aussersihl" },
+  {
+    "country": "CH",
+    "city": "Zürich (Kreis 4) / Aussersihl",
+    "ctname": "Zürich (Kreis 4) / Aussersihl"
+  },
   { "country": "CH", "city": "Winterthur", "ctname": "Winterthur" },
   { "country": "CH", "city": "Lugano", "ctname": "Lugano" },
   { "country": "CH", "city": "Bern", "ctname": "Bern" },
@@ -490,7 +538,11 @@
   { "country": "CH", "city": "Lausanne", "ctname": "Lausanne" },
   { "country": "CH", "city": "Sitten", "ctname": "Sitten" },
   { "country": "AT", "city": "Jakomini", "ctname": "Jakomini" },
-  { "country": "AT", "city": "Klagenfurt am Wörthersee", "ctname": "Klagenfurt am Wörthersee" },
+  {
+    "country": "AT",
+    "city": "Klagenfurt am Wörthersee",
+    "ctname": "Klagenfurt am Wörthersee"
+  },
   { "country": "AT", "city": "Gries", "ctname": "Gries" },
   { "country": "AT", "city": "Amstetten", "ctname": "Amstetten" },
   { "country": "AT", "city": "Eggenberg", "ctname": "Eggenberg" },
@@ -502,7 +554,11 @@
   { "country": "AT", "city": "Innsbruck", "ctname": "Innsbruck" },
   { "country": "AT", "city": "Salzburg", "ctname": "Salzburg" },
   { "country": "AT", "city": "Lend", "ctname": "Lend" },
-  { "country": "AT", "city": "Weinzierl bei Krems", "ctname": "Weinzierl bei Krems" },
+  {
+    "country": "AT",
+    "city": "Weinzierl bei Krems",
+    "ctname": "Weinzierl bei Krems"
+  },
   { "country": "AT", "city": "Villach", "ctname": "Villach" },
   { "country": "AT", "city": "Meidling", "ctname": "Meidling" },
   { "country": "AT", "city": "Vienna", "ctname": "Vienna" },
@@ -531,28 +587,72 @@
   { "country": "MX", "city": "San Luis Potosí", "ctname": "San Luis Potosí" },
   { "country": "MX", "city": "Cuautlancingo", "ctname": "Cuautlancingo" },
   { "country": "MX", "city": "Chihuahua", "ctname": "Chihuahua" },
-  { "country": "MX", "city": "Las Pintas de Arriba", "ctname": "Las Pintas de Arriba" },
-  { "country": "MX", "city": "San Nicolás de los Garza", "ctname": "San Nicolás de los Garza" },
-  { "country": "MX", "city": "San Andrés Cuexcontitlán", "ctname": "San Andrés Cuexcontitlán" },
+  {
+    "country": "MX",
+    "city": "Las Pintas de Arriba",
+    "ctname": "Las Pintas de Arriba"
+  },
+  {
+    "country": "MX",
+    "city": "San Nicolás de los Garza",
+    "ctname": "San Nicolás de los Garza"
+  },
+  {
+    "country": "MX",
+    "city": "San Andrés Cuexcontitlán",
+    "ctname": "San Andrés Cuexcontitlán"
+  },
   { "country": "MX", "city": "Celaya", "ctname": "Celaya" },
   { "country": "MX", "city": "Mexicali", "ctname": "Mexicali" },
-  { "country": "MX", "city": "Ciudad Benito Juárez", "ctname": "Ciudad Benito Juárez" },
-  { "country": "MX", "city": "Mixquiahuala de Juarez", "ctname": "Mixquiahuala de Juarez" },
+  {
+    "country": "MX",
+    "city": "Ciudad Benito Juárez",
+    "ctname": "Ciudad Benito Juárez"
+  },
+  {
+    "country": "MX",
+    "city": "Mixquiahuala de Juarez",
+    "ctname": "Mixquiahuala de Juarez"
+  },
   { "country": "MX", "city": "Guadalajara", "ctname": "Guadalajara" },
-  { "country": "MX", "city": "San Pedro Garza Garcia", "ctname": "San Pedro Garza Garcia" },
+  {
+    "country": "MX",
+    "city": "San Pedro Garza Garcia",
+    "ctname": "San Pedro Garza Garcia"
+  },
   { "country": "MX", "city": "Iztapalapa", "ctname": "Iztapalapa" },
-  { "country": "MX", "city": "Ciudad Nezahualcoyotl", "ctname": "Ciudad Nezahualcoyotl" },
+  {
+    "country": "MX",
+    "city": "Ciudad Nezahualcoyotl",
+    "ctname": "Ciudad Nezahualcoyotl"
+  },
   { "country": "MX", "city": "Ciudad Apodaca", "ctname": "Ciudad Apodaca" },
   { "country": "MX", "city": "San Mateo Atenco", "ctname": "San Mateo Atenco" },
   { "country": "MX", "city": "Salamanca", "ctname": "Salamanca" },
   { "country": "MX", "city": "Irapuato", "ctname": "Irapuato" },
   { "country": "MX", "city": "Medina", "ctname": "Medina" },
   { "country": "MX", "city": "Zacatepec", "ctname": "Zacatepec" },
-  { "country": "MX", "city": "San Jerónimo Chicahualco", "ctname": "San Jerónimo Chicahualco" },
+  {
+    "country": "MX",
+    "city": "San Jerónimo Chicahualco",
+    "ctname": "San Jerónimo Chicahualco"
+  },
   { "country": "MX", "city": "Silao", "ctname": "Silao" },
-  { "country": "MX", "city": "San Pedro Garza García", "ctname": "San Pedro Garza García" },
-  { "country": "MX", "city": "Venustiano Carranza", "ctname": "Venustiano Carranza" },
-  { "country": "MX", "city": "Ciudad General Escobedo", "ctname": "Ciudad General Escobedo" },
+  {
+    "country": "MX",
+    "city": "San Pedro Garza García",
+    "ctname": "San Pedro Garza García"
+  },
+  {
+    "country": "MX",
+    "city": "Venustiano Carranza",
+    "ctname": "Venustiano Carranza"
+  },
+  {
+    "country": "MX",
+    "city": "Ciudad General Escobedo",
+    "ctname": "Ciudad General Escobedo"
+  },
   { "country": "MX", "city": "Mexico City", "ctname": "Mexico City" },
   { "country": "MX", "city": "Santa Teresa", "ctname": "Santa Teresa" },
   { "country": "MX", "city": "Morelia", "ctname": "Morelia" },
@@ -562,49 +662,109 @@
   { "country": "MX", "city": "Aguascalientes", "ctname": "Aguascalientes" },
   { "country": "MX", "city": "Monterrey", "ctname": "Monterrey" },
   { "country": "MX", "city": "Tlalnepantla", "ctname": "Tlalnepantla" },
-  { "country": "MX", "city": "Cadereyta Jiménez", "ctname": "Cadereyta Jiménez" },
+  {
+    "country": "MX",
+    "city": "Cadereyta Jiménez",
+    "ctname": "Cadereyta Jiménez"
+  },
   { "country": "MX", "city": "Gómez Palacio", "ctname": "Gómez Palacio" },
   { "country": "MX", "city": "García", "ctname": "García" },
-  { "country": "MX", "city": "San Miguel de Allende", "ctname": "San Miguel de Allende" },
-  { "country": "MX", "city": "San Sebastián el Grande", "ctname": "San Sebastián el Grande" },
+  {
+    "country": "MX",
+    "city": "San Miguel de Allende",
+    "ctname": "San Miguel de Allende"
+  },
+  {
+    "country": "MX",
+    "city": "San Sebastián el Grande",
+    "ctname": "San Sebastián el Grande"
+  },
   { "country": "MX", "city": "Apizaco", "ctname": "Apizaco" },
   { "country": "MX", "city": "Pachuca de Soto", "ctname": "Pachuca de Soto" },
   { "country": "MX", "city": "Tres de Mayo", "ctname": "Tres de Mayo" },
-  { "country": "MX", "city": "Valle de Santiago", "ctname": "Valle de Santiago" },
-  { "country": "MX", "city": "Colonia del Valle", "ctname": "Colonia del Valle" },
+  {
+    "country": "MX",
+    "city": "Valle de Santiago",
+    "ctname": "Valle de Santiago"
+  },
+  {
+    "country": "MX",
+    "city": "Colonia del Valle",
+    "ctname": "Colonia del Valle"
+  },
   { "country": "MX", "city": "Coyoacán", "ctname": "Coyoacán" },
   { "country": "MX", "city": "Benito Juárez", "ctname": "Benito Juárez" },
   { "country": "MX", "city": "El Quince", "ctname": "El Quince" },
-  { "country": "MX", "city": "San Pablo de las Salinas", "ctname": "San Pablo de las Salinas" },
+  {
+    "country": "MX",
+    "city": "San Pablo de las Salinas",
+    "ctname": "San Pablo de las Salinas"
+  },
   { "country": "MX", "city": "Cuautla", "ctname": "Cuautla" },
   { "country": "MX", "city": "Guadalupe", "ctname": "Guadalupe" },
-  { "country": "MX", "city": "Victoria de Durango", "ctname": "Victoria de Durango" },
+  {
+    "country": "MX",
+    "city": "Victoria de Durango",
+    "ctname": "Victoria de Durango"
+  },
   { "country": "MX", "city": "Álvaro Obregón", "ctname": "Álvaro Obregón" },
   { "country": "MX", "city": "Guanajuato", "ctname": "Guanajuato" },
   { "country": "MX", "city": "Juárez", "ctname": "Juárez" },
   { "country": "MX", "city": "Minatitlán", "ctname": "Minatitlán" },
   { "country": "MX", "city": "Miguel Hidalgo", "ctname": "Miguel Hidalgo" },
-  { "country": "MX", "city": "León de los Aldama", "ctname": "León de los Aldama" },
+  {
+    "country": "MX",
+    "city": "León de los Aldama",
+    "ctname": "León de los Aldama"
+  },
   { "country": "MX", "city": "Tepic", "ctname": "Tepic" },
-  { "country": "MX", "city": "Purísima de Bustos", "ctname": "Purísima de Bustos" },
+  {
+    "country": "MX",
+    "city": "Purísima de Bustos",
+    "ctname": "Purísima de Bustos"
+  },
   { "country": "MX", "city": "Zacatelco", "ctname": "Zacatelco" },
-  { "country": "MX", "city": "San Miguel Ajusco", "ctname": "San Miguel Ajusco" },
-  { "country": "MX", "city": "Hacienda Santa Fe", "ctname": "Hacienda Santa Fe" },
+  {
+    "country": "MX",
+    "city": "San Miguel Ajusco",
+    "ctname": "San Miguel Ajusco"
+  },
+  {
+    "country": "MX",
+    "city": "Hacienda Santa Fe",
+    "ctname": "Hacienda Santa Fe"
+  },
   { "country": "MX", "city": "Nuevo Laredo", "ctname": "Nuevo Laredo" },
-  { "country": "MX", "city": "Xalapa de Enríquez", "ctname": "Xalapa de Enríquez" },
-  { "country": "MX", "city": "Naucalpan de Juárez", "ctname": "Naucalpan de Juárez" },
+  {
+    "country": "MX",
+    "city": "Xalapa de Enríquez",
+    "ctname": "Xalapa de Enríquez"
+  },
+  {
+    "country": "MX",
+    "city": "Naucalpan de Juárez",
+    "ctname": "Naucalpan de Juárez"
+  },
   { "country": "MX", "city": "Coyotepec", "ctname": "Coyotepec" },
   { "country": "MX", "city": "Tulancingo", "ctname": "Tulancingo" },
   { "country": "MX", "city": "Benito Juarez", "ctname": "Benito Juarez" },
   { "country": "MX", "city": "Ciudad Sahagun", "ctname": "Ciudad Sahagun" },
   { "country": "MX", "city": "Tizayuca", "ctname": "Tizayuca" },
-  { "country": "MX", "city": "Delegación Cuajimalpa de Morelos", "ctname": "Delegación Cuajimalpa de Morelos" },
+  {
+    "country": "MX",
+    "city": "Delegación Cuajimalpa de Morelos",
+    "ctname": "Delegación Cuajimalpa de Morelos"
+  },
   { "country": "MX", "city": "Jesús María", "ctname": "Jesús María" },
   { "country": "FR", "city": "Sallanches", "ctname": "Sallanches" },
   { "country": "FR", "city": "Meyzieu", "ctname": "Meyzieu" },
   { "country": "FR", "city": "Gap", "ctname": "Gap" },
   { "country": "FR", "city": "Toulouse", "ctname": "Toulouse" },
-  { "country": "FR", "city": "Villefranche-sur-Saône", "ctname": "Villefranche-sur-Saône" },
+  {
+    "country": "FR",
+    "city": "Villefranche-sur-Saône",
+    "ctname": "Villefranche-sur-Saône"
+  },
   { "country": "FR", "city": "Oullins", "ctname": "Oullins" },
   { "country": "FR", "city": "Romans-sur-Isère", "ctname": "Romans-sur-Isère" },
   { "country": "FR", "city": "Lyon", "ctname": "Lyon" },
@@ -618,21 +778,37 @@
   { "country": "FR", "city": "Balma", "ctname": "Balma" },
   { "country": "FR", "city": "Cannes", "ctname": "Cannes" },
   { "country": "FR", "city": "Grenoble", "ctname": "Grenoble" },
-  { "country": "FR", "city": "Saint-Martin-d’Hères", "ctname": "Saint-Martin-d’Hères" },
+  {
+    "country": "FR",
+    "city": "Saint-Martin-d’Hères",
+    "ctname": "Saint-Martin-d’Hères"
+  },
   { "country": "FR", "city": "Montpellier", "ctname": "Montpellier" },
   { "country": "FR", "city": "Vaulx-en-Velin", "ctname": "Vaulx-en-Velin" },
   { "country": "FR", "city": "Saint-Chamond", "ctname": "Saint-Chamond" },
-  { "country": "FR", "city": "Bourg-lès-Valence", "ctname": "Bourg-lès-Valence" },
+  {
+    "country": "FR",
+    "city": "Bourg-lès-Valence",
+    "ctname": "Bourg-lès-Valence"
+  },
   { "country": "FR", "city": "Limoges", "ctname": "Limoges" },
   { "country": "FR", "city": "Vannes", "ctname": "Vannes" },
   { "country": "FR", "city": "Chambéry", "ctname": "Chambéry" },
   { "country": "FR", "city": "Pau", "ctname": "Pau" },
   { "country": "FR", "city": "Ajaccio", "ctname": "Ajaccio" },
-  { "country": "FR", "city": "Cherbourg-Octeville", "ctname": "Cherbourg-Octeville" },
+  {
+    "country": "FR",
+    "city": "Cherbourg-Octeville",
+    "ctname": "Cherbourg-Octeville"
+  },
   { "country": "FR", "city": "Nantes", "ctname": "Nantes" },
   { "country": "FR", "city": "Saint-Étienne", "ctname": "Saint-Étienne" },
   { "country": "FR", "city": "Poitiers", "ctname": "Poitiers" },
-  { "country": "FR", "city": "Saint-Laurent-du-Var", "ctname": "Saint-Laurent-du-Var" },
+  {
+    "country": "FR",
+    "city": "Saint-Laurent-du-Var",
+    "ctname": "Saint-Laurent-du-Var"
+  },
   { "country": "FR", "city": "Blagnac", "ctname": "Blagnac" },
   { "country": "FR", "city": "Nice", "ctname": "Nice" },
   { "country": "FR", "city": "Angoulême", "ctname": "Angoulême" },
@@ -641,7 +817,11 @@
   { "country": "FR", "city": "Albertville", "ctname": "Albertville" },
   { "country": "FR", "city": "Saint-Nazaire", "ctname": "Saint-Nazaire" },
   { "country": "FR", "city": "Bourg-en-Bresse", "ctname": "Bourg-en-Bresse" },
-  { "country": "FR", "city": "Coudekerque-Branche", "ctname": "Coudekerque-Branche" },
+  {
+    "country": "FR",
+    "city": "Coudekerque-Branche",
+    "ctname": "Coudekerque-Branche"
+  },
   { "country": "FR", "city": "Bourges", "ctname": "Bourges" },
   { "country": "FR", "city": "Manosque", "ctname": "Manosque" },
   { "country": "FR", "city": "Le Havre", "ctname": "Le Havre" },
@@ -649,7 +829,11 @@
   { "country": "FR", "city": "Outreau", "ctname": "Outreau" },
   { "country": "FR", "city": "Châteauroux", "ctname": "Châteauroux" },
   { "country": "FR", "city": "Avignon", "ctname": "Avignon" },
-  { "country": "FR", "city": "Le Petit-Quevilly", "ctname": "Le Petit-Quevilly" },
+  {
+    "country": "FR",
+    "city": "Le Petit-Quevilly",
+    "ctname": "Le Petit-Quevilly"
+  },
   { "country": "FR", "city": "Brest", "ctname": "Brest" },
   { "country": "FR", "city": "Béthune", "ctname": "Béthune" },
   { "country": "FR", "city": "Valenciennes", "ctname": "Valenciennes" },
@@ -673,7 +857,11 @@
   { "country": "FR", "city": "Rambouillet", "ctname": "Rambouillet" },
   { "country": "FR", "city": "Guéret", "ctname": "Guéret" },
   { "country": "FR", "city": "Saint-Ouen", "ctname": "Saint-Ouen" },
-  { "country": "FR", "city": "Saint-Pol-sur-Mer", "ctname": "Saint-Pol-sur-Mer" },
+  {
+    "country": "FR",
+    "city": "Saint-Pol-sur-Mer",
+    "ctname": "Saint-Pol-sur-Mer"
+  },
   { "country": "FR", "city": "Angers", "ctname": "Angers" },
   { "country": "FR", "city": "Dreux", "ctname": "Dreux" },
   { "country": "FR", "city": "Le Mans", "ctname": "Le Mans" },
@@ -683,9 +871,17 @@
   { "country": "FR", "city": "Cugnaux", "ctname": "Cugnaux" },
   { "country": "FR", "city": "Calais", "ctname": "Calais" },
   { "country": "FR", "city": "Maubeuge", "ctname": "Maubeuge" },
-  { "country": "FR", "city": "Sotteville-lès-Rouen", "ctname": "Sotteville-lès-Rouen" },
+  {
+    "country": "FR",
+    "city": "Sotteville-lès-Rouen",
+    "ctname": "Sotteville-lès-Rouen"
+  },
   { "country": "FR", "city": "Laval", "ctname": "Laval" },
-  { "country": "FR", "city": "Saint-Cyr-sur-Loire", "ctname": "Saint-Cyr-sur-Loire" },
+  {
+    "country": "FR",
+    "city": "Saint-Cyr-sur-Loire",
+    "ctname": "Saint-Cyr-sur-Loire"
+  },
   { "country": "FR", "city": "Rennes", "ctname": "Rennes" },
   { "country": "FR", "city": "Tours", "ctname": "Tours" },
   { "country": "FR", "city": "Évreux", "ctname": "Évreux" },
@@ -705,7 +901,11 @@
   { "country": "FR", "city": "Arras", "ctname": "Arras" },
   { "country": "FR", "city": "Douai", "ctname": "Douai" },
   { "country": "FR", "city": "Port-de-Bouc", "ctname": "Port-de-Bouc" },
-  { "country": "FR", "city": "Sainte-Marguerite", "ctname": "Sainte-Marguerite" },
+  {
+    "country": "FR",
+    "city": "Sainte-Marguerite",
+    "ctname": "Sainte-Marguerite"
+  },
   { "country": "FR", "city": "Bastia", "ctname": "Bastia" },
   { "country": "FR", "city": "Auxerre", "ctname": "Auxerre" },
   { "country": "FR", "city": "Rouen", "ctname": "Rouen" },
@@ -716,7 +916,11 @@
   { "country": "FR", "city": "Saint-Denis", "ctname": "Saint-Denis" },
   { "country": "FR", "city": "Rodez", "ctname": "Rodez" },
   { "country": "FR", "city": "Marseille 03", "ctname": "Marseille 03" },
-  { "country": "FR", "city": "Tremblay-en-France", "ctname": "Tremblay-en-France" },
+  {
+    "country": "FR",
+    "city": "Tremblay-en-France",
+    "ctname": "Tremblay-en-France"
+  },
   { "country": "FR", "city": "Lognes", "ctname": "Lognes" },
   { "country": "FR", "city": "Moulins", "ctname": "Moulins" },
   { "country": "FR", "city": "Marseille 04", "ctname": "Marseille 04" },
@@ -724,7 +928,11 @@
   { "country": "FR", "city": "Lens", "ctname": "Lens" },
   { "country": "FR", "city": "Lormont", "ctname": "Lormont" },
   { "country": "FR", "city": "Marignane", "ctname": "Marignane" },
-  { "country": "FR", "city": "Salon-de-Provence", "ctname": "Salon-de-Provence" },
+  {
+    "country": "FR",
+    "city": "Salon-de-Provence",
+    "ctname": "Salon-de-Provence"
+  },
   { "country": "FR", "city": "Biarritz", "ctname": "Biarritz" },
   { "country": "FR", "city": "Gennevilliers", "ctname": "Gennevilliers" },
   { "country": "FR", "city": "Toulon", "ctname": "Toulon" },
@@ -738,8 +946,16 @@
   { "country": "FR", "city": "Dijon", "ctname": "Dijon" },
   { "country": "FR", "city": "Marseille 14", "ctname": "Marseille 14" },
   { "country": "FR", "city": "Chalon-sur-Saône", "ctname": "Chalon-sur-Saône" },
-  { "country": "FR", "city": "Saint-Jean-de-Braye", "ctname": "Saint-Jean-de-Braye" },
-  { "country": "FR", "city": "Brive-la-Gaillarde", "ctname": "Brive-la-Gaillarde" },
+  {
+    "country": "FR",
+    "city": "Saint-Jean-de-Braye",
+    "ctname": "Saint-Jean-de-Braye"
+  },
+  {
+    "country": "FR",
+    "city": "Brive-la-Gaillarde",
+    "ctname": "Brive-la-Gaillarde"
+  },
   { "country": "FR", "city": "Cenon", "ctname": "Cenon" },
   { "country": "FR", "city": "Martigues", "ctname": "Martigues" },
   { "country": "FR", "city": "Saint-Barthélémy", "ctname": "Saint-Barthélémy" },
@@ -761,8 +977,16 @@
   { "country": "FR", "city": "Chamalières", "ctname": "Chamalières" },
   { "country": "FR", "city": "Bobigny", "ctname": "Bobigny" },
   { "country": "FR", "city": "Montluçon", "ctname": "Montluçon" },
-  { "country": "FR", "city": "Issy-les-Moulineaux", "ctname": "Issy-les-Moulineaux" },
-  { "country": "FR", "city": "Cournon-d’Auvergne", "ctname": "Cournon-d’Auvergne" },
+  {
+    "country": "FR",
+    "city": "Issy-les-Moulineaux",
+    "ctname": "Issy-les-Moulineaux"
+  },
+  {
+    "country": "FR",
+    "city": "Cournon-d’Auvergne",
+    "ctname": "Cournon-d’Auvergne"
+  },
   { "country": "FR", "city": "La Madeleine", "ctname": "La Madeleine" },
   { "country": "FR", "city": "Nogent-sur-Marne", "ctname": "Nogent-sur-Marne" },
   { "country": "FR", "city": "Le Puy-en-Velay", "ctname": "Le Puy-en-Velay" },
@@ -779,7 +1003,11 @@
   { "country": "FR", "city": "Hyères", "ctname": "Hyères" },
   { "country": "FR", "city": "Saint-Omer", "ctname": "Saint-Omer" },
   { "country": "FR", "city": "Rochefort", "ctname": "Rochefort" },
-  { "country": "FR", "city": "Le Grand-Quevilly", "ctname": "Le Grand-Quevilly" },
+  {
+    "country": "FR",
+    "city": "Le Grand-Quevilly",
+    "ctname": "Le Grand-Quevilly"
+  },
   { "country": "FR", "city": "Saint-Fons", "ctname": "Saint-Fons" },
   { "country": "FR", "city": "Fontaine", "ctname": "Fontaine" },
   { "country": "FR", "city": "Castres", "ctname": "Castres" },
@@ -842,10 +1070,18 @@
   { "country": "GB", "city": "Isleworth", "ctname": "Isleworth" },
   { "country": "GB", "city": "Sunderland", "ctname": "Sunderland" },
   { "country": "GB", "city": "Barking", "ctname": "Barking" },
-  { "country": "GB", "city": "Royal Leamington Spa", "ctname": "Royal Leamington Spa" },
+  {
+    "country": "GB",
+    "city": "Royal Leamington Spa",
+    "ctname": "Royal Leamington Spa"
+  },
   { "country": "GB", "city": "Welling", "ctname": "Welling" },
   { "country": "GB", "city": "Swansea", "ctname": "Swansea" },
-  { "country": "GB", "city": "Kingston upon Hull", "ctname": "Kingston upon Hull" },
+  {
+    "country": "GB",
+    "city": "Kingston upon Hull",
+    "ctname": "Kingston upon Hull"
+  },
   { "country": "GB", "city": "Ballymena", "ctname": "Ballymena" },
   { "country": "GB", "city": "Newtownabbey", "ctname": "Newtownabbey" },
   { "country": "GB", "city": "Bayswater", "ctname": "Bayswater" },
@@ -856,7 +1092,11 @@
   { "country": "GB", "city": "Great Sankey", "ctname": "Great Sankey" },
   { "country": "GB", "city": "Cambridge", "ctname": "Cambridge" },
   { "country": "GB", "city": "Mitcham", "ctname": "Mitcham" },
-  { "country": "GB", "city": "Newcastle upon Tyne", "ctname": "Newcastle upon Tyne" },
+  {
+    "country": "GB",
+    "city": "Newcastle upon Tyne",
+    "ctname": "Newcastle upon Tyne"
+  },
   { "country": "GB", "city": "Bishopbriggs", "ctname": "Bishopbriggs" },
   { "country": "GB", "city": "Hayes", "ctname": "Hayes" },
   { "country": "GB", "city": "Wigan", "ctname": "Wigan" },
@@ -885,7 +1125,11 @@
   { "country": "GB", "city": "Falkirk", "ctname": "Falkirk" },
   { "country": "GB", "city": "Greenock", "ctname": "Greenock" },
   { "country": "GB", "city": "Stretford", "ctname": "Stretford" },
-  { "country": "GB", "city": "City of Westminster", "ctname": "City of Westminster" },
+  {
+    "country": "GB",
+    "city": "City of Westminster",
+    "ctname": "City of Westminster"
+  },
   { "country": "GB", "city": "Cumbernauld", "ctname": "Cumbernauld" },
   { "country": "GB", "city": "Bearsden", "ctname": "Bearsden" },
   { "country": "GB", "city": "Clydebank", "ctname": "Clydebank" },
@@ -913,7 +1157,11 @@
   { "country": "GB", "city": "Coatbridge", "ctname": "Coatbridge" },
   { "country": "DE", "city": "Werder", "ctname": "Werder" },
   { "country": "DE", "city": "Fennpfuhl", "ctname": "Fennpfuhl" },
-  { "country": "DE", "city": "Limburg an der Lahn", "ctname": "Limburg an der Lahn" },
+  {
+    "country": "DE",
+    "city": "Limburg an der Lahn",
+    "ctname": "Limburg an der Lahn"
+  },
   { "country": "DE", "city": "Reutlingen", "ctname": "Reutlingen" },
   { "country": "DE", "city": "Neukölln", "ctname": "Neukölln" },
   { "country": "DE", "city": "Soest", "ctname": "Soest" },
@@ -925,7 +1173,11 @@
   { "country": "DE", "city": "Pforzheim", "ctname": "Pforzheim" },
   { "country": "DE", "city": "Düren", "ctname": "Düren" },
   { "country": "DE", "city": "Bilderstoeckchen", "ctname": "Bilderstoeckchen" },
-  { "country": "DE", "city": "Frankfurt am Main", "ctname": "Frankfurt am Main" },
+  {
+    "country": "DE",
+    "city": "Frankfurt am Main",
+    "ctname": "Frankfurt am Main"
+  },
   { "country": "DE", "city": "Goslar", "ctname": "Goslar" },
   { "country": "DE", "city": "Kempten (Allgäu)", "ctname": "Kempten (Allgäu)" },
   { "country": "DE", "city": "Mannheim", "ctname": "Mannheim" },
@@ -937,15 +1189,31 @@
   { "country": "DE", "city": "Dresden", "ctname": "Dresden" },
   { "country": "DE", "city": "Müllheim", "ctname": "Müllheim" },
   { "country": "DE", "city": "Herrenberg", "ctname": "Herrenberg" },
-  { "country": "DE", "city": "Lauda-Königshofen", "ctname": "Lauda-Königshofen" },
+  {
+    "country": "DE",
+    "city": "Lauda-Königshofen",
+    "ctname": "Lauda-Königshofen"
+  },
   { "country": "DE", "city": "Weil am Rhein", "ctname": "Weil am Rhein" },
   { "country": "DE", "city": "Radebeul", "ctname": "Radebeul" },
   { "country": "DE", "city": "Bogenhausen", "ctname": "Bogenhausen" },
   { "country": "DE", "city": "Salzgitter", "ctname": "Salzgitter" },
-  { "country": "DE", "city": "Biberach an der Riß", "ctname": "Biberach an der Riß" },
+  {
+    "country": "DE",
+    "city": "Biberach an der Riß",
+    "ctname": "Biberach an der Riß"
+  },
   { "country": "DE", "city": "Leverkusen", "ctname": "Leverkusen" },
-  { "country": "DE", "city": "Villingen-Schwenningen", "ctname": "Villingen-Schwenningen" },
-  { "country": "DE", "city": "Eggenstein-Leopoldshafen", "ctname": "Eggenstein-Leopoldshafen" },
+  {
+    "country": "DE",
+    "city": "Villingen-Schwenningen",
+    "ctname": "Villingen-Schwenningen"
+  },
+  {
+    "country": "DE",
+    "city": "Eggenstein-Leopoldshafen",
+    "ctname": "Eggenstein-Leopoldshafen"
+  },
   { "country": "DE", "city": "Osnabrück", "ctname": "Osnabrück" },
   { "country": "DE", "city": "Schwarzenberg", "ctname": "Schwarzenberg" },
   { "country": "DE", "city": "Marsberg", "ctname": "Marsberg" },
@@ -972,24 +1240,48 @@
   { "country": "DE", "city": "Leipzig", "ctname": "Leipzig" },
   { "country": "DE", "city": "Wedding", "ctname": "Wedding" },
   { "country": "DE", "city": "Friedrichshagen", "ctname": "Friedrichshagen" },
-  { "country": "DE", "city": "Königstein im Taunus", "ctname": "Königstein im Taunus" },
-  { "country": "DE", "city": "Brandenburg an der Havel", "ctname": "Brandenburg an der Havel" },
+  {
+    "country": "DE",
+    "city": "Königstein im Taunus",
+    "ctname": "Königstein im Taunus"
+  },
+  {
+    "country": "DE",
+    "city": "Brandenburg an der Havel",
+    "ctname": "Brandenburg an der Havel"
+  },
   { "country": "DE", "city": "Michelstadt", "ctname": "Michelstadt" },
   { "country": "DE", "city": "Steilshoop", "ctname": "Steilshoop" },
   { "country": "DE", "city": "Wesel", "ctname": "Wesel" },
   { "country": "DE", "city": "Meerbusch", "ctname": "Meerbusch" },
   { "country": "DE", "city": "Ludwigsburg", "ctname": "Ludwigsburg" },
-  { "country": "DE", "city": "Heppenheim an der Bergstrasse", "ctname": "Heppenheim an der Bergstrasse" },
+  {
+    "country": "DE",
+    "city": "Heppenheim an der Bergstrasse",
+    "ctname": "Heppenheim an der Bergstrasse"
+  },
   { "country": "DE", "city": "Kelheim", "ctname": "Kelheim" },
   { "country": "DE", "city": "Wiesloch", "ctname": "Wiesloch" },
   { "country": "DE", "city": "Potsdam", "ctname": "Potsdam" },
   { "country": "DE", "city": "Wittenberge", "ctname": "Wittenberge" },
-  { "country": "DE", "city": "Königs Wusterhausen", "ctname": "Königs Wusterhausen" },
+  {
+    "country": "DE",
+    "city": "Königs Wusterhausen",
+    "ctname": "Königs Wusterhausen"
+  },
   { "country": "DE", "city": "Kehl", "ctname": "Kehl" },
   { "country": "DE", "city": "Wetzlar", "ctname": "Wetzlar" },
   { "country": "DE", "city": "Lünen", "ctname": "Lünen" },
-  { "country": "DE", "city": "Sulzbach-Rosenberg", "ctname": "Sulzbach-Rosenberg" },
-  { "country": "DE", "city": "Marburg an der Lahn", "ctname": "Marburg an der Lahn" },
+  {
+    "country": "DE",
+    "city": "Sulzbach-Rosenberg",
+    "ctname": "Sulzbach-Rosenberg"
+  },
+  {
+    "country": "DE",
+    "city": "Marburg an der Lahn",
+    "ctname": "Marburg an der Lahn"
+  },
   { "country": "DE", "city": "Niederrad", "ctname": "Niederrad" },
   { "country": "DE", "city": "Dinslaken", "ctname": "Dinslaken" },
   { "country": "DE", "city": "Gießen", "ctname": "Gießen" },
@@ -999,7 +1291,11 @@
   { "country": "DE", "city": "Aalen", "ctname": "Aalen" },
   { "country": "DE", "city": "Luckenwalde", "ctname": "Luckenwalde" },
   { "country": "DE", "city": "Falkensee", "ctname": "Falkensee" },
-  { "country": "DE", "city": "Bernau bei Berlin", "ctname": "Bernau bei Berlin" },
+  {
+    "country": "DE",
+    "city": "Bernau bei Berlin",
+    "ctname": "Bernau bei Berlin"
+  },
   { "country": "DE", "city": "Eberswalde", "ctname": "Eberswalde" },
   { "country": "DE", "city": "Flörsheim", "ctname": "Flörsheim" },
   { "country": "DE", "city": "Munich", "ctname": "Munich" },
@@ -1011,7 +1307,11 @@
   { "country": "DE", "city": "Staaken", "ctname": "Staaken" },
   { "country": "DE", "city": "Münster", "ctname": "Münster" },
   { "country": "DE", "city": "Stuttgart-Ost", "ctname": "Stuttgart-Ost" },
-  { "country": "DE", "city": "Annaberg-Buchholz", "ctname": "Annaberg-Buchholz" },
+  {
+    "country": "DE",
+    "city": "Annaberg-Buchholz",
+    "ctname": "Annaberg-Buchholz"
+  },
   { "country": "DE", "city": "Lüdenscheid", "ctname": "Lüdenscheid" },
   { "country": "DE", "city": "Friedrichshafen", "ctname": "Friedrichshafen" },
   { "country": "DE", "city": "Eisenhüttenstadt", "ctname": "Eisenhüttenstadt" },
@@ -1054,7 +1354,11 @@
   { "country": "DE", "city": "Pirmasens", "ctname": "Pirmasens" },
   { "country": "DE", "city": "Meiderich", "ctname": "Meiderich" },
   { "country": "DE", "city": "Trier", "ctname": "Trier" },
-  { "country": "DE", "city": "Ludwigshafen am Rhein", "ctname": "Ludwigshafen am Rhein" },
+  {
+    "country": "DE",
+    "city": "Ludwigshafen am Rhein",
+    "ctname": "Ludwigshafen am Rhein"
+  },
   { "country": "DE", "city": "Nürnberg", "ctname": "Nürnberg" },
   { "country": "DE", "city": "Jüchen", "ctname": "Jüchen" },
   { "country": "DE", "city": "Passau", "ctname": "Passau" },
@@ -1112,7 +1416,11 @@
   { "country": "DK", "city": "Roskilde", "ctname": "Roskilde" },
   { "country": "DK", "city": "Copenhagen", "ctname": "Copenhagen" },
   { "country": "VE", "city": "Ciudad Guayana", "ctname": "Ciudad Guayana" },
-  { "country": "AR", "city": "Villa Constitución", "ctname": "Villa Constitución" },
+  {
+    "country": "AR",
+    "city": "Villa Constitución",
+    "ctname": "Villa Constitución"
+  },
   { "country": "AR", "city": "Villa Santa Rita", "ctname": "Villa Santa Rita" },
   { "country": "AR", "city": "Rosario", "ctname": "Rosario" },
   { "country": "AR", "city": "Santa Rosa", "ctname": "Santa Rosa" },
@@ -1144,7 +1452,11 @@
   { "country": "BG", "city": "Varna", "ctname": "Varna" },
   { "country": "BG", "city": "Sofia", "ctname": "Sofia" },
   { "country": "BG", "city": "Stara Zagora", "ctname": "Stara Zagora" },
-  { "country": "BG", "city": "Gorna Oryahovitsa", "ctname": "Gorna Oryahovitsa" },
+  {
+    "country": "BG",
+    "city": "Gorna Oryahovitsa",
+    "ctname": "Gorna Oryahovitsa"
+  },
   { "country": "BG", "city": "Plovdiv", "ctname": "Plovdiv" },
   { "country": "BG", "city": "Pernik", "ctname": "Pernik" },
   { "country": "BG", "city": "Dobrich", "ctname": "Dobrich" },
@@ -1158,7 +1470,11 @@
   { "country": "TH", "city": "Bang Racham", "ctname": "Bang Racham" },
   { "country": "TH", "city": "Bang Ban", "ctname": "Bang Ban" },
   { "country": "TH", "city": "Bang Kruai", "ctname": "Bang Kruai" },
-  { "country": "TH", "city": "Mueang Nonthaburi", "ctname": "Mueang Nonthaburi" },
+  {
+    "country": "TH",
+    "city": "Mueang Nonthaburi",
+    "ctname": "Mueang Nonthaburi"
+  },
   { "country": "TH", "city": "Sing Buri", "ctname": "Sing Buri" },
   { "country": "TH", "city": "Bangkok", "ctname": "Bangkok" },
   { "country": "TH", "city": "Phra Pradaeng", "ctname": "Phra Pradaeng" },
@@ -1174,7 +1490,11 @@
   { "country": "TH", "city": "Den Chai", "ctname": "Den Chai" },
   { "country": "TH", "city": "Pak Kret", "ctname": "Pak Kret" },
   { "country": "TH", "city": "Suphan Buri", "ctname": "Suphan Buri" },
-  { "country": "TH", "city": "Ban Bang Kadi Pathum Thani", "ctname": "Ban Bang Kadi Pathum Thani" },
+  {
+    "country": "TH",
+    "city": "Ban Bang Kadi Pathum Thani",
+    "ctname": "Ban Bang Kadi Pathum Thani"
+  },
   { "country": "TH", "city": "Lampang", "ctname": "Lampang" },
   { "country": "TH", "city": "Uttaradit", "ctname": "Uttaradit" },
   { "country": "TH", "city": "Lat Yao", "ctname": "Lat Yao" },
@@ -1210,7 +1530,11 @@
   { "country": "TH", "city": "Yasothon", "ctname": "Yasothon" },
   { "country": "TH", "city": "San Kamphaeng", "ctname": "San Kamphaeng" },
   { "country": "TH", "city": "San Pa Tong", "ctname": "San Pa Tong" },
-  { "country": "TH", "city": "Phra Nakhon Si Ayutthaya", "ctname": "Phra Nakhon Si Ayutthaya" },
+  {
+    "country": "TH",
+    "city": "Phra Nakhon Si Ayutthaya",
+    "ctname": "Phra Nakhon Si Ayutthaya"
+  },
   { "country": "TH", "city": "Nakhon Nayok", "ctname": "Nakhon Nayok" },
   { "country": "TH", "city": "Si Sa Ket", "ctname": "Si Sa Ket" },
   { "country": "TH", "city": "Bang Rakam", "ctname": "Bang Rakam" },
@@ -1219,7 +1543,11 @@
   { "country": "TH", "city": "Phichit", "ctname": "Phichit" },
   { "country": "TH", "city": "Amnat Charoen", "ctname": "Amnat Charoen" },
   { "country": "TH", "city": "Phon Charoen", "ctname": "Phon Charoen" },
-  { "country": "TH", "city": "Khanu Woralaksaburi", "ctname": "Khanu Woralaksaburi" },
+  {
+    "country": "TH",
+    "city": "Khanu Woralaksaburi",
+    "ctname": "Khanu Woralaksaburi"
+  },
   { "country": "TH", "city": "Ban Talat Nua", "ctname": "Ban Talat Nua" },
   { "country": "TH", "city": "Lop Buri", "ctname": "Lop Buri" },
   { "country": "TH", "city": "Ban Nong Wua So", "ctname": "Ban Nong Wua So" },
@@ -1230,7 +1558,11 @@
   { "country": "TH", "city": "Khon Kaen", "ctname": "Khon Kaen" },
   { "country": "TH", "city": "Mukdahan", "ctname": "Mukdahan" },
   { "country": "TH", "city": "Trang", "ctname": "Trang" },
-  { "country": "TH", "city": "Nakhon Ratchasima", "ctname": "Nakhon Ratchasima" },
+  {
+    "country": "TH",
+    "city": "Nakhon Ratchasima",
+    "ctname": "Nakhon Ratchasima"
+  },
   { "country": "TH", "city": "Phatthalung", "ctname": "Phatthalung" },
   { "country": "TH", "city": "Loei", "ctname": "Loei" },
   { "country": "TH", "city": "Hat Yai", "ctname": "Hat Yai" },
@@ -1273,7 +1605,11 @@
   { "country": "TH", "city": "Yala", "ctname": "Yala" },
   { "country": "TH", "city": "Kamalasai", "ctname": "Kamalasai" },
   { "country": "TH", "city": "Klaeng", "ctname": "Klaeng" },
-  { "country": "TH", "city": "Nakhon Si Thammarat", "ctname": "Nakhon Si Thammarat" },
+  {
+    "country": "TH",
+    "city": "Nakhon Si Thammarat",
+    "ctname": "Nakhon Si Thammarat"
+  },
   { "country": "TH", "city": "Nong Kung Si", "ctname": "Nong Kung Si" },
   { "country": "TH", "city": "Amphoe Sikhiu", "ctname": "Amphoe Sikhiu" },
   { "country": "TH", "city": "Bang Pa-in", "ctname": "Bang Pa-in" },
@@ -1322,7 +1658,11 @@
   { "country": "VN", "city": "Da Nang", "ctname": "Da Nang" },
   { "country": "VN", "city": "Pleiku", "ctname": "Pleiku" },
   { "country": "VN", "city": "Bắc Giang", "ctname": "Bắc Giang" },
-  { "country": "VN", "city": "Thành Phố Uông Bí", "ctname": "Thành Phố Uông Bí" },
+  {
+    "country": "VN",
+    "city": "Thành Phố Uông Bí",
+    "ctname": "Thành Phố Uông Bí"
+  },
   { "country": "VN", "city": "Hạ Long", "ctname": "Hạ Long" },
   { "country": "VN", "city": "Tây Ninh", "ctname": "Tây Ninh" },
   { "country": "VN", "city": "Móng Cái", "ctname": "Móng Cái" },
@@ -1352,7 +1692,11 @@
   { "country": "CZ", "city": "Karviná", "ctname": "Karviná" },
   { "country": "CZ", "city": "Kroměříž", "ctname": "Kroměříž" },
   { "country": "CZ", "city": "Český Těšín", "ctname": "Český Těšín" },
-  { "country": "CZ", "city": "Klášterec nad Ohří", "ctname": "Klášterec nad Ohří" },
+  {
+    "country": "CZ",
+    "city": "Klášterec nad Ohří",
+    "ctname": "Klášterec nad Ohří"
+  },
   { "country": "CZ", "city": "Chomutov", "ctname": "Chomutov" },
   { "country": "CZ", "city": "Jirkov", "ctname": "Jirkov" },
   { "country": "CZ", "city": "Příbram", "ctname": "Příbram" },
@@ -1361,7 +1705,11 @@
   { "country": "CZ", "city": "Cheb", "ctname": "Cheb" },
   { "country": "CZ", "city": "Beroun", "ctname": "Beroun" },
   { "country": "CZ", "city": "Kladno", "ctname": "Kladno" },
-  { "country": "CZ", "city": "Valašské Meziříčí", "ctname": "Valašské Meziříčí" },
+  {
+    "country": "CZ",
+    "city": "Valašské Meziříčí",
+    "ctname": "Valašské Meziříčí"
+  },
   { "country": "CZ", "city": "Modřany", "ctname": "Modřany" },
   { "country": "CZ", "city": "Pelhřimov", "ctname": "Pelhřimov" },
   { "country": "CZ", "city": "Litoměřice", "ctname": "Litoměřice" },
@@ -1375,7 +1723,11 @@
   { "country": "CZ", "city": "Prague", "ctname": "Prague" },
   { "country": "CZ", "city": "Most", "ctname": "Most" },
   { "country": "CZ", "city": "Tábor", "ctname": "Tábor" },
-  { "country": "CZ", "city": "Kralupy nad Vltavou", "ctname": "Kralupy nad Vltavou" },
+  {
+    "country": "CZ",
+    "city": "Kralupy nad Vltavou",
+    "ctname": "Kralupy nad Vltavou"
+  },
   { "country": "CZ", "city": "Uherské Hradiště", "ctname": "Uherské Hradiště" },
   { "country": "CZ", "city": "Jihlava", "ctname": "Jihlava" },
   { "country": "CZ", "city": "Libeň", "ctname": "Libeň" },
@@ -1421,11 +1773,19 @@
   { "country": "PL", "city": "Kościerzyna", "ctname": "Kościerzyna" },
   { "country": "PL", "city": "Sopot", "ctname": "Sopot" },
   { "country": "PL", "city": "Jelenia Góra", "ctname": "Jelenia Góra" },
-  { "country": "PL", "city": "Rejon placu Świętego Macieja", "ctname": "Rejon placu Świętego Macieja" },
+  {
+    "country": "PL",
+    "city": "Rejon placu Świętego Macieja",
+    "ctname": "Rejon placu Świętego Macieja"
+  },
   { "country": "PL", "city": "Częstochowa", "ctname": "Częstochowa" },
   { "country": "PL", "city": "Bydgoszcz", "ctname": "Bydgoszcz" },
   { "country": "PL", "city": "Łódź", "ctname": "Łódź" },
-  { "country": "PL", "city": "Piotrków Trybunalski", "ctname": "Piotrków Trybunalski" },
+  {
+    "country": "PL",
+    "city": "Piotrków Trybunalski",
+    "ctname": "Piotrków Trybunalski"
+  },
   { "country": "PL", "city": "Zielona Góra", "ctname": "Zielona Góra" },
   { "country": "PL", "city": "Lębork", "ctname": "Lębork" },
   { "country": "PL", "city": "Zabrze", "ctname": "Zabrze" },
@@ -1440,7 +1800,11 @@
   { "country": "PL", "city": "Dąbrowa Górnicza", "ctname": "Dąbrowa Górnicza" },
   { "country": "PL", "city": "Konin", "ctname": "Konin" },
   { "country": "PL", "city": "Legnica", "ctname": "Legnica" },
-  { "country": "PL", "city": "Gorzów Wielkopolski", "ctname": "Gorzów Wielkopolski" },
+  {
+    "country": "PL",
+    "city": "Gorzów Wielkopolski",
+    "ctname": "Gorzów Wielkopolski"
+  },
   { "country": "PL", "city": "Malbork", "ctname": "Malbork" },
   { "country": "PL", "city": "Inowrocław", "ctname": "Inowrocław" },
   { "country": "PL", "city": "Łęczyca", "ctname": "Łęczyca" },
@@ -1541,7 +1905,11 @@
   { "country": "RO", "city": "Iaşi", "ctname": "Iaşi" },
   { "country": "RO", "city": "Târgu Jiu", "ctname": "Târgu Jiu" },
   { "country": "RO", "city": "Oradea", "ctname": "Oradea" },
-  { "country": "RO", "city": "Drobeta-Turnu Severin", "ctname": "Drobeta-Turnu Severin" },
+  {
+    "country": "RO",
+    "city": "Drobeta-Turnu Severin",
+    "ctname": "Drobeta-Turnu Severin"
+  },
   { "country": "RO", "city": "Buftea", "ctname": "Buftea" },
   { "country": "RO", "city": "Adjud", "ctname": "Adjud" },
   { "country": "RO", "city": "Târgu-Mureş", "ctname": "Târgu-Mureş" },
@@ -1662,7 +2030,11 @@
   { "country": "IR", "city": "Rasht", "ctname": "Rasht" },
   { "country": "IR", "city": "Hamadān", "ctname": "Hamadān" },
   { "country": "IR", "city": "Bam", "ctname": "Bam" },
-  { "country": "IR", "city": "Īstgāh-e Rāh Āhan-e Garmsār", "ctname": "Īstgāh-e Rāh Āhan-e Garmsār" },
+  {
+    "country": "IR",
+    "city": "Īstgāh-e Rāh Āhan-e Garmsār",
+    "ctname": "Īstgāh-e Rāh Āhan-e Garmsār"
+  },
   { "country": "IR", "city": "Yasuj", "ctname": "Yasuj" },
   { "country": "IR", "city": "Zahedan", "ctname": "Zahedan" },
   { "country": "IR", "city": "Bīrjand", "ctname": "Bīrjand" },
@@ -1694,7 +2066,11 @@
   { "country": "TW", "city": "Yilan", "ctname": "Yilan" },
   { "country": "BA", "city": "Tuzla", "ctname": "Tuzla" },
   { "country": "BA", "city": "Sarajevo", "ctname": "Sarajevo" },
-  { "country": "QA", "city": "Umm Şalāl Muḩammad", "ctname": "Umm Şalāl Muḩammad" },
+  {
+    "country": "QA",
+    "city": "Umm Şalāl Muḩammad",
+    "ctname": "Umm Şalāl Muḩammad"
+  },
   { "country": "QA", "city": "Doha", "ctname": "Doha" },
   { "country": "MO", "city": "Macau", "ctname": "Macau" },
   { "country": "CI", "city": "Abidjan", "ctname": "Abidjan" },
@@ -1733,7 +2109,11 @@
   { "country": "AU", "city": "Newcastle", "ctname": "Newcastle" },
   { "country": "AU", "city": "Cranebrook", "ctname": "Cranebrook" },
   { "country": "AU", "city": "Bundoora", "ctname": "Bundoora" },
-  { "country": "AU", "city": "Melbourne City Centre", "ctname": "Melbourne City Centre" },
+  {
+    "country": "AU",
+    "city": "Melbourne City Centre",
+    "ctname": "Melbourne City Centre"
+  },
   { "country": "AU", "city": "St Albans", "ctname": "St Albans" },
   { "country": "AU", "city": "Orange", "ctname": "Orange" },
   { "country": "AU", "city": "Casula", "ctname": "Casula" },
@@ -1745,7 +2125,11 @@
   { "country": "AU", "city": "Canberra", "ctname": "Canberra" },
   { "country": "AU", "city": "Rochedale South", "ctname": "Rochedale South" },
   { "country": "AU", "city": "Port Macquarie", "ctname": "Port Macquarie" },
-  { "country": "AU", "city": "Parafield Gardens", "ctname": "Parafield Gardens" },
+  {
+    "country": "AU",
+    "city": "Parafield Gardens",
+    "ctname": "Parafield Gardens"
+  },
   { "country": "AU", "city": "Brisbane", "ctname": "Brisbane" },
   { "country": "AU", "city": "Coorparoo", "ctname": "Coorparoo" },
   { "country": "AU", "city": "Redbank Plains", "ctname": "Redbank Plains" },
@@ -1761,7 +2145,11 @@
   { "country": "AU", "city": "Maroochydore", "ctname": "Maroochydore" },
   { "country": "AU", "city": "Morphett Vale", "ctname": "Morphett Vale" },
   { "country": "AU", "city": "Scarborough", "ctname": "Scarborough" },
-  { "country": "AU", "city": "Wollongong city centre", "ctname": "Wollongong city centre" },
+  {
+    "country": "AU",
+    "city": "Wollongong city centre",
+    "ctname": "Wollongong city centre"
+  },
   { "country": "AU", "city": "Willetton", "ctname": "Willetton" },
   { "country": "AU", "city": "Coffs Harbour", "ctname": "Coffs Harbour" },
   { "country": "AU", "city": "St Clair", "ctname": "St Clair" },
@@ -1795,7 +2183,11 @@
   { "country": "HK", "city": "Tai Po", "ctname": "Tai Po" },
   { "country": "HK", "city": "Tuen Mun", "ctname": "Tuen Mun" },
   { "country": "HK", "city": "Sha Tin", "ctname": "Sha Tin" },
-  { "country": "HK", "city": "Yuen Long Kau Hui", "ctname": "Yuen Long Kau Hui" },
+  {
+    "country": "HK",
+    "city": "Yuen Long Kau Hui",
+    "ctname": "Yuen Long Kau Hui"
+  },
   { "country": "HK", "city": "Tung Chung", "ctname": "Tung Chung" },
   { "country": "BJ", "city": "Cotonou", "ctname": "Cotonou" },
   { "country": "CL", "city": "Tocopilla", "ctname": "Tocopilla" },
@@ -1836,13 +2228,21 @@
   { "country": "CL", "city": "Chimbarongo", "ctname": "Chimbarongo" },
   { "country": "MY", "city": "Kuala Lumpur", "ctname": "Kuala Lumpur" },
   { "country": "MY", "city": "Skudai", "ctname": "Skudai" },
-  { "country": "MY", "city": "Kampung Pasir Gudang Baru", "ctname": "Kampung Pasir Gudang Baru" },
+  {
+    "country": "MY",
+    "city": "Kampung Pasir Gudang Baru",
+    "ctname": "Kampung Pasir Gudang Baru"
+  },
   { "country": "GT", "city": "Jocotenango", "ctname": "Jocotenango" },
   { "country": "GT", "city": "Villa Canales", "ctname": "Villa Canales" },
   { "country": "GT", "city": "Petapa", "ctname": "Petapa" },
   { "country": "GT", "city": "Guatemala City", "ctname": "Guatemala City" },
   { "country": "GT", "city": "Villa Nueva", "ctname": "Villa Nueva" },
-  { "country": "GT", "city": "San Pedro Ayampuc", "ctname": "San Pedro Ayampuc" },
+  {
+    "country": "GT",
+    "city": "San Pedro Ayampuc",
+    "ctname": "San Pedro Ayampuc"
+  },
   { "country": "GT", "city": "Jalapa", "ctname": "Jalapa" },
   { "country": "PR", "city": "Caguas", "ctname": "Caguas" },
   { "country": "PR", "city": "Trujillo Alto", "ctname": "Trujillo Alto" },
@@ -1874,6 +2274,7 @@
   { "country": "RS", "city": "Šabac", "ctname": "Šabac" },
   { "country": "RS", "city": "Požarevac", "ctname": "Požarevac" },
   { "country": "RS", "city": "Obrenovac", "ctname": "Obrenovac" },
+  { "country": "RS", "city": "Čačak", "ctname": "Čačak" },
   { "country": "RS", "city": "Užice", "ctname": "Užice" },
   { "country": "RS", "city": "Subotica", "ctname": "Subotica" },
   { "country": "RS", "city": "Nova Pazova", "ctname": "Nova Pazova" },
@@ -2000,7 +2401,11 @@
   { "country": "NL", "city": "Venlo", "ctname": "Venlo" },
   { "country": "NL", "city": "Vianen", "ctname": "Vianen" },
   { "country": "BN", "city": "Kuala Belait", "ctname": "Kuala Belait" },
-  { "country": "BN", "city": "Bandar Seri Begawan", "ctname": "Bandar Seri Begawan" },
+  {
+    "country": "BN",
+    "city": "Bandar Seri Begawan",
+    "ctname": "Bandar Seri Begawan"
+  },
   { "country": "BN", "city": "Tutong", "ctname": "Tutong" },
   { "country": "SE", "city": "Visby", "ctname": "Visby" },
   { "country": "SE", "city": "Västervik", "ctname": "Västervik" },
@@ -2284,17 +2689,33 @@
   { "country": "CA", "city": "Penticton", "ctname": "Penticton" },
   { "country": "CA", "city": "Vanier", "ctname": "Vanier" },
   { "country": "CA", "city": "Ottawa", "ctname": "Ottawa" },
-  { "country": "CA", "city": "Salaberry-de-Valleyfield", "ctname": "Salaberry-de-Valleyfield" },
+  {
+    "country": "CA",
+    "city": "Salaberry-de-Valleyfield",
+    "ctname": "Salaberry-de-Valleyfield"
+  },
   { "country": "CA", "city": "St. Albert", "ctname": "St. Albert" },
   { "country": "CA", "city": "Fort McMurray", "ctname": "Fort McMurray" },
   { "country": "CA", "city": "Gatineau", "ctname": "Gatineau" },
   { "country": "CA", "city": "Nepean", "ctname": "Nepean" },
   { "country": "CA", "city": "East York", "ctname": "East York" },
   { "country": "CA", "city": "Kamloops", "ctname": "Kamloops" },
-  { "country": "CA", "city": "Saint-Augustin-de-Desmaures", "ctname": "Saint-Augustin-de-Desmaures" },
-  { "country": "CA", "city": "La Haute-Saint-Charles", "ctname": "La Haute-Saint-Charles" },
+  {
+    "country": "CA",
+    "city": "Saint-Augustin-de-Desmaures",
+    "ctname": "Saint-Augustin-de-Desmaures"
+  },
+  {
+    "country": "CA",
+    "city": "La Haute-Saint-Charles",
+    "ctname": "La Haute-Saint-Charles"
+  },
   { "country": "CA", "city": "Saint-Léonard", "ctname": "Saint-Léonard" },
-  { "country": "CA", "city": "L'Ancienne-Lorette", "ctname": "L'Ancienne-Lorette" },
+  {
+    "country": "CA",
+    "city": "L'Ancienne-Lorette",
+    "ctname": "L'Ancienne-Lorette"
+  },
   { "country": "CA", "city": "Sainte-Catherine", "ctname": "Sainte-Catherine" },
   { "country": "CA", "city": "Lévis", "ctname": "Lévis" },
   { "country": "CA", "city": "North Vancouver", "ctname": "North Vancouver" },
@@ -2445,7 +2866,11 @@
   { "country": "RU", "city": "Novokhovrino", "ctname": "Novokhovrino" },
   { "country": "RU", "city": "Mar’ino", "ctname": "Mar’ino" },
   { "country": "RU", "city": "Abinsk", "ctname": "Abinsk" },
-  { "country": "RU", "city": "Vasyl'evsky Ostrov", "ctname": "Vasyl'evsky Ostrov" },
+  {
+    "country": "RU",
+    "city": "Vasyl'evsky Ostrov",
+    "ctname": "Vasyl'evsky Ostrov"
+  },
   { "country": "RU", "city": "Akademicheskoe", "ctname": "Akademicheskoe" },
   { "country": "RU", "city": "Severnyy", "ctname": "Severnyy" },
   { "country": "RU", "city": "Tyoply Stan", "ctname": "Tyoply Stan" },
@@ -2472,14 +2897,26 @@
   { "country": "RU", "city": "Taganskiy", "ctname": "Taganskiy" },
   { "country": "RU", "city": "Kolomyagi", "ctname": "Kolomyagi" },
   { "country": "RU", "city": "Volgograd", "ctname": "Volgograd" },
-  { "country": "RU", "city": "Biryulëvo Zapadnoye", "ctname": "Biryulëvo Zapadnoye" },
+  {
+    "country": "RU",
+    "city": "Biryulëvo Zapadnoye",
+    "ctname": "Biryulëvo Zapadnoye"
+  },
   { "country": "RU", "city": "Levoberezhnyy", "ctname": "Levoberezhnyy" },
   { "country": "RU", "city": "Untolovo", "ctname": "Untolovo" },
   { "country": "RU", "city": "Mineralnye Vody", "ctname": "Mineralnye Vody" },
-  { "country": "RU", "city": "Ochakovo-Matveyevskoye", "ctname": "Ochakovo-Matveyevskoye" },
+  {
+    "country": "RU",
+    "city": "Ochakovo-Matveyevskoye",
+    "ctname": "Ochakovo-Matveyevskoye"
+  },
   { "country": "RU", "city": "Moscow", "ctname": "Moscow" },
   { "country": "RU", "city": "Kholmskiy", "ctname": "Kholmskiy" },
-  { "country": "RU", "city": "Khoroshëvo-Mnevniki", "ctname": "Khoroshëvo-Mnevniki" },
+  {
+    "country": "RU",
+    "city": "Khoroshëvo-Mnevniki",
+    "ctname": "Khoroshëvo-Mnevniki"
+  },
   { "country": "RU", "city": "Kolomna", "ctname": "Kolomna" },
   { "country": "RU", "city": "Berëzovka", "ctname": "Berëzovka" },
   { "country": "RU", "city": "Vostryakovo", "ctname": "Vostryakovo" },
@@ -2494,7 +2931,11 @@
   { "country": "RU", "city": "Dedovsk", "ctname": "Dedovsk" },
   { "country": "RU", "city": "Amin’yevo", "ctname": "Amin’yevo" },
   { "country": "RU", "city": "Astrakhan", "ctname": "Astrakhan" },
-  { "country": "RU", "city": "Novyye Cherëmushki", "ctname": "Novyye Cherëmushki" },
+  {
+    "country": "RU",
+    "city": "Novyye Cherëmushki",
+    "ctname": "Novyye Cherëmushki"
+  },
   { "country": "RU", "city": "Mikhalkovo", "ctname": "Mikhalkovo" },
   { "country": "RU", "city": "Admiralteisky", "ctname": "Admiralteisky" },
   { "country": "RU", "city": "Yasenevo", "ctname": "Yasenevo" },
@@ -2505,19 +2946,35 @@
   { "country": "RU", "city": "Krymsk", "ctname": "Krymsk" },
   { "country": "RU", "city": "Tuapse", "ctname": "Tuapse" },
   { "country": "RU", "city": "Lefortovo", "ctname": "Lefortovo" },
-  { "country": "RU", "city": "Pereslavl’-Zalesskiy", "ctname": "Pereslavl’-Zalesskiy" },
-  { "country": "RU", "city": "Pokrovskoye-Streshnëvo", "ctname": "Pokrovskoye-Streshnëvo" },
+  {
+    "country": "RU",
+    "city": "Pereslavl’-Zalesskiy",
+    "ctname": "Pereslavl’-Zalesskiy"
+  },
+  {
+    "country": "RU",
+    "city": "Pokrovskoye-Streshnëvo",
+    "ctname": "Pokrovskoye-Streshnëvo"
+  },
   { "country": "RU", "city": "Samara", "ctname": "Samara" },
   { "country": "RU", "city": "Yubileyny", "ctname": "Yubileyny" },
   { "country": "RU", "city": "Kemerovo", "ctname": "Kemerovo" },
   { "country": "RU", "city": "Malakhovka", "ctname": "Malakhovka" },
-  { "country": "RU", "city": "Orekhovo-Borisovo", "ctname": "Orekhovo-Borisovo" },
+  {
+    "country": "RU",
+    "city": "Orekhovo-Borisovo",
+    "ctname": "Orekhovo-Borisovo"
+  },
   { "country": "RU", "city": "Vostryakovo", "ctname": "Vostryakovo" },
   { "country": "RU", "city": "Zamoskvorech’ye", "ctname": "Zamoskvorech’ye" },
   { "country": "RU", "city": "Novokuz’minki", "ctname": "Novokuz’minki" },
   { "country": "RU", "city": "Ozëry", "ctname": "Ozëry" },
   { "country": "RU", "city": "Shushary", "ctname": "Shushary" },
-  { "country": "RU", "city": "Slavyansk-na-Kubani", "ctname": "Slavyansk-na-Kubani" },
+  {
+    "country": "RU",
+    "city": "Slavyansk-na-Kubani",
+    "ctname": "Slavyansk-na-Kubani"
+  },
   { "country": "RU", "city": "Petrovskaya", "ctname": "Petrovskaya" },
   { "country": "RU", "city": "Novo-Peredelkino", "ctname": "Novo-Peredelkino" },
   { "country": "RU", "city": "Setun’", "ctname": "Setun’" },
@@ -2534,11 +2991,19 @@
   { "country": "RU", "city": "Strogino", "ctname": "Strogino" },
   { "country": "RU", "city": "Sokol’niki", "ctname": "Sokol’niki" },
   { "country": "RU", "city": "Volokolamsk", "ctname": "Volokolamsk" },
-  { "country": "RU", "city": "Zheleznodorozhnyy", "ctname": "Zheleznodorozhnyy" },
+  {
+    "country": "RU",
+    "city": "Zheleznodorozhnyy",
+    "ctname": "Zheleznodorozhnyy"
+  },
   { "country": "RU", "city": "Vatutino", "ctname": "Vatutino" },
   { "country": "RU", "city": "Ivanovo", "ctname": "Ivanovo" },
   { "country": "RU", "city": "Petrogradka", "ctname": "Petrogradka" },
-  { "country": "RU", "city": "Vykhino-Zhulebino", "ctname": "Vykhino-Zhulebino" },
+  {
+    "country": "RU",
+    "city": "Vykhino-Zhulebino",
+    "ctname": "Vykhino-Zhulebino"
+  },
   { "country": "RU", "city": "Chita", "ctname": "Chita" },
   { "country": "RU", "city": "Belorechensk", "ctname": "Belorechensk" },
   { "country": "RU", "city": "Anapa", "ctname": "Anapa" },
@@ -2553,7 +3018,11 @@
   { "country": "RU", "city": "Ivanovskoye", "ctname": "Ivanovskoye" },
   { "country": "RU", "city": "Cherepovets", "ctname": "Cherepovets" },
   { "country": "RU", "city": "Beloozërskiy", "ctname": "Beloozërskiy" },
-  { "country": "RU", "city": "Chertanovo Yuzhnoye", "ctname": "Chertanovo Yuzhnoye" },
+  {
+    "country": "RU",
+    "city": "Chertanovo Yuzhnoye",
+    "ctname": "Chertanovo Yuzhnoye"
+  },
   { "country": "RU", "city": "Shchukino", "ctname": "Shchukino" },
   { "country": "RU", "city": "Dzerzhinsky", "ctname": "Dzerzhinsky" },
   { "country": "RU", "city": "Ryazan’", "ctname": "Ryazan’" },
@@ -2561,7 +3030,11 @@
   { "country": "RU", "city": "Elektrougli", "ctname": "Elektrougli" },
   { "country": "RU", "city": "Nagornyy", "ctname": "Nagornyy" },
   { "country": "RU", "city": "Ramenki", "ctname": "Ramenki" },
-  { "country": "RU", "city": "Orekhovo-Borisovo Severnoye", "ctname": "Orekhovo-Borisovo Severnoye" },
+  {
+    "country": "RU",
+    "city": "Orekhovo-Borisovo Severnoye",
+    "ctname": "Orekhovo-Borisovo Severnoye"
+  },
   { "country": "RU", "city": "Ozerki", "ctname": "Ozerki" },
   { "country": "RU", "city": "Rostov-na-Donu", "ctname": "Rostov-na-Donu" },
   { "country": "RU", "city": "Vnukovo", "ctname": "Vnukovo" },
@@ -2589,9 +3062,17 @@
   { "country": "RU", "city": "Saransk", "ctname": "Saransk" },
   { "country": "RU", "city": "Kurgan", "ctname": "Kurgan" },
   { "country": "RU", "city": "Korkino", "ctname": "Korkino" },
-  { "country": "RU", "city": "Primorsko-Akhtarsk", "ctname": "Primorsko-Akhtarsk" },
+  {
+    "country": "RU",
+    "city": "Primorsko-Akhtarsk",
+    "ctname": "Primorsko-Akhtarsk"
+  },
   { "country": "RU", "city": "Yefremov", "ctname": "Yefremov" },
-  { "country": "RU", "city": "Vostochnoe Degunino", "ctname": "Vostochnoe Degunino" },
+  {
+    "country": "RU",
+    "city": "Vostochnoe Degunino",
+    "ctname": "Vostochnoe Degunino"
+  },
   { "country": "IN", "city": "Bawāna", "ctname": "Bawāna" },
   { "country": "IN", "city": "Dinapore", "ctname": "Dinapore" },
   { "country": "IN", "city": "Darbhanga", "ctname": "Darbhanga" },
@@ -2722,7 +3203,11 @@
   { "country": "IN", "city": "Chunār", "ctname": "Chunār" },
   { "country": "IN", "city": "Kannur", "ctname": "Kannur" },
   { "country": "IN", "city": "Mathura", "ctname": "Mathura" },
-  { "country": "IN", "city": "Thiruvananthapuram", "ctname": "Thiruvananthapuram" },
+  {
+    "country": "IN",
+    "city": "Thiruvananthapuram",
+    "ctname": "Thiruvananthapuram"
+  },
   { "country": "IN", "city": "Kollam", "ctname": "Kollam" },
   { "country": "IN", "city": "Muzaffarnagar", "ctname": "Muzaffarnagar" },
   { "country": "IN", "city": "Sirsi", "ctname": "Sirsi" },
@@ -2812,12 +3297,24 @@
   { "country": "IN", "city": "Srirāmpur", "ctname": "Srirāmpur" },
   { "country": "IN", "city": "Singānallūr", "ctname": "Singānallūr" },
   { "country": "IN", "city": "Qādiān", "ctname": "Qādiān" },
-  { "country": "ES", "city": "Montcada i Reixac", "ctname": "Montcada i Reixac" },
-  { "country": "ES", "city": "Mollet del Vallès", "ctname": "Mollet del Vallès" },
+  {
+    "country": "ES",
+    "city": "Montcada i Reixac",
+    "ctname": "Montcada i Reixac"
+  },
+  {
+    "country": "ES",
+    "city": "Mollet del Vallès",
+    "ctname": "Mollet del Vallès"
+  },
   { "country": "ES", "city": "Mataró", "ctname": "Mataró" },
   { "country": "ES", "city": "Granollers", "ctname": "Granollers" },
   { "country": "ES", "city": "Sant Celoni", "ctname": "Sant Celoni" },
-  { "country": "ES", "city": "Santa Perpètua de Mogoda", "ctname": "Santa Perpètua de Mogoda" },
+  {
+    "country": "ES",
+    "city": "Santa Perpètua de Mogoda",
+    "ctname": "Santa Perpètua de Mogoda"
+  },
   { "country": "ES", "city": "Durango", "ctname": "Durango" },
   { "country": "ES", "city": "Oviedo", "ctname": "Oviedo" },
   { "country": "ES", "city": "Carabanchel", "ctname": "Carabanchel" },
@@ -2828,15 +3325,27 @@
   { "country": "ES", "city": "Avilés", "ctname": "Avilés" },
   { "country": "ES", "city": "Terrassa", "ctname": "Terrassa" },
   { "country": "ES", "city": "Martorell", "ctname": "Martorell" },
-  { "country": "ES", "city": "Sant Vicenç dels Horts", "ctname": "Sant Vicenç dels Horts" },
+  {
+    "country": "ES",
+    "city": "Sant Vicenç dels Horts",
+    "ctname": "Sant Vicenç dels Horts"
+  },
   { "country": "ES", "city": "Rubí", "ctname": "Rubí" },
   { "country": "ES", "city": "Basauri", "ctname": "Basauri" },
-  { "country": "ES", "city": "Sant Andreu de la Barca", "ctname": "Sant Andreu de la Barca" },
+  {
+    "country": "ES",
+    "city": "Sant Andreu de la Barca",
+    "ctname": "Sant Andreu de la Barca"
+  },
   { "country": "ES", "city": "Manlleu", "ctname": "Manlleu" },
   { "country": "ES", "city": "Arucas", "ctname": "Arucas" },
   { "country": "ES", "city": "Palma", "ctname": "Palma" },
   { "country": "ES", "city": "Bilbao", "ctname": "Bilbao" },
-  { "country": "ES", "city": "Gasteiz / Vitoria", "ctname": "Gasteiz / Vitoria" },
+  {
+    "country": "ES",
+    "city": "Gasteiz / Vitoria",
+    "ctname": "Gasteiz / Vitoria"
+  },
   { "country": "ES", "city": "Errenteria", "ctname": "Errenteria" },
   { "country": "ES", "city": "Granada", "ctname": "Granada" },
   { "country": "ES", "city": "San Roque", "ctname": "San Roque" },
@@ -2849,7 +3358,11 @@
   { "country": "ES", "city": "Bailén", "ctname": "Bailén" },
   { "country": "ES", "city": "Chamberí", "ctname": "Chamberí" },
   { "country": "ES", "city": "Collado-Villalba", "ctname": "Collado-Villalba" },
-  { "country": "ES", "city": "Donostia / San Sebastián", "ctname": "Donostia / San Sebastián" },
+  {
+    "country": "ES",
+    "city": "Donostia / San Sebastián",
+    "ctname": "Donostia / San Sebastián"
+  },
   { "country": "ES", "city": "Tolosa", "ctname": "Tolosa" },
   { "country": "ES", "city": "Almassora", "ctname": "Almassora" },
   { "country": "ES", "city": "Málaga", "ctname": "Málaga" },
@@ -2859,9 +3372,21 @@
   { "country": "ES", "city": "Lleida", "ctname": "Lleida" },
   { "country": "ES", "city": "Vigo", "ctname": "Vigo" },
   { "country": "ES", "city": "Erandio", "ctname": "Erandio" },
-  { "country": "ES", "city": "Torrejón de Ardoz", "ctname": "Torrejón de Ardoz" },
-  { "country": "ES", "city": "Santa Cruz de Tenerife", "ctname": "Santa Cruz de Tenerife" },
-  { "country": "ES", "city": "Puerto del Rosario", "ctname": "Puerto del Rosario" },
+  {
+    "country": "ES",
+    "city": "Torrejón de Ardoz",
+    "ctname": "Torrejón de Ardoz"
+  },
+  {
+    "country": "ES",
+    "city": "Santa Cruz de Tenerife",
+    "ctname": "Santa Cruz de Tenerife"
+  },
+  {
+    "country": "ES",
+    "city": "Puerto del Rosario",
+    "ctname": "Puerto del Rosario"
+  },
   { "country": "ES", "city": "Ponteareas", "ctname": "Ponteareas" },
   { "country": "ES", "city": "Camargo", "ctname": "Camargo" },
   { "country": "ES", "city": "Quart de Poblet", "ctname": "Quart de Poblet" },
@@ -2882,13 +3407,21 @@
   { "country": "ES", "city": "Armilla", "ctname": "Armilla" },
   { "country": "ES", "city": "La Pineda", "ctname": "La Pineda" },
   { "country": "ES", "city": "Ferrol", "ctname": "Ferrol" },
-  { "country": "ES", "city": "Alcalá de Guadaira", "ctname": "Alcalá de Guadaira" },
+  {
+    "country": "ES",
+    "city": "Alcalá de Guadaira",
+    "ctname": "Alcalá de Guadaira"
+  },
   { "country": "ES", "city": "Córdoba", "ctname": "Córdoba" },
   { "country": "ES", "city": "Valencia", "ctname": "Valencia" },
   { "country": "ES", "city": "Sama", "ctname": "Sama" },
   { "country": "ES", "city": "Telde", "ctname": "Telde" },
   { "country": "ES", "city": "Hernani", "ctname": "Hernani" },
-  { "country": "ES", "city": "Las Palmas de Gran Canaria", "ctname": "Las Palmas de Gran Canaria" },
+  {
+    "country": "ES",
+    "city": "Las Palmas de Gran Canaria",
+    "ctname": "Las Palmas de Gran Canaria"
+  },
   { "country": "ES", "city": "Algeciras", "ctname": "Algeciras" },
   { "country": "ES", "city": "Agüimes", "ctname": "Agüimes" },
   { "country": "ES", "city": "Salamanca", "ctname": "Salamanca" },
@@ -2901,41 +3434,81 @@
   { "country": "ES", "city": "Huelva", "ctname": "Huelva" },
   { "country": "ES", "city": "San Fernando", "ctname": "San Fernando" },
   { "country": "ES", "city": "Puerto Real", "ctname": "Puerto Real" },
-  { "country": "ES", "city": "Jerez de la Frontera", "ctname": "Jerez de la Frontera" },
+  {
+    "country": "ES",
+    "city": "Jerez de la Frontera",
+    "ctname": "Jerez de la Frontera"
+  },
   { "country": "ES", "city": "Cadiz", "ctname": "Cadiz" },
   { "country": "ES", "city": "Jaén", "ctname": "Jaén" },
   { "country": "ES", "city": "Zarautz", "ctname": "Zarautz" },
   { "country": "ES", "city": "Moncloa-Aravaca", "ctname": "Moncloa-Aravaca" },
-  { "country": "ES", "city": "Tetuán de las Victorias", "ctname": "Tetuán de las Victorias" },
+  {
+    "country": "ES",
+    "city": "Tetuán de las Victorias",
+    "ctname": "Tetuán de las Victorias"
+  },
   { "country": "ES", "city": "Oria", "ctname": "Oria" },
   { "country": "ES", "city": "La Rinconada", "ctname": "La Rinconada" },
   { "country": "ES", "city": "Ciutadella", "ctname": "Ciutadella" },
   { "country": "ES", "city": "Camas", "ctname": "Camas" },
   { "country": "ES", "city": "Barañáin", "ctname": "Barañáin" },
   { "country": "ES", "city": "Ourense", "ctname": "Ourense" },
-  { "country": "ES", "city": "San Juan de Aznalfarache", "ctname": "San Juan de Aznalfarache" },
+  {
+    "country": "ES",
+    "city": "San Juan de Aznalfarache",
+    "ctname": "San Juan de Aznalfarache"
+  },
   { "country": "ES", "city": "Alcúdia", "ctname": "Alcúdia" },
   { "country": "ES", "city": "Getxo", "ctname": "Getxo" },
   { "country": "ES", "city": "Alcantarilla", "ctname": "Alcantarilla" },
-  { "country": "ES", "city": "La Línea de la Concepción", "ctname": "La Línea de la Concepción" },
+  {
+    "country": "ES",
+    "city": "La Línea de la Concepción",
+    "ctname": "La Línea de la Concepción"
+  },
   { "country": "ES", "city": "Pollença", "ctname": "Pollença" },
-  { "country": "ES", "city": "Santa Cruz de la Palma", "ctname": "Santa Cruz de la Palma" },
-  { "country": "ES", "city": "Sant Adrià de Besòs", "ctname": "Sant Adrià de Besòs" },
+  {
+    "country": "ES",
+    "city": "Santa Cruz de la Palma",
+    "ctname": "Santa Cruz de la Palma"
+  },
+  {
+    "country": "ES",
+    "city": "Sant Adrià de Besòs",
+    "ctname": "Sant Adrià de Besòs"
+  },
   { "country": "ES", "city": "Viveiro", "ctname": "Viveiro" },
   { "country": "ES", "city": "Narón", "ctname": "Narón" },
-  { "country": "ES", "city": "Castelló de la Plana", "ctname": "Castelló de la Plana" },
+  {
+    "country": "ES",
+    "city": "Castelló de la Plana",
+    "ctname": "Castelló de la Plana"
+  },
   { "country": "ES", "city": "Los Barrios", "ctname": "Los Barrios" },
   { "country": "ES", "city": "Almozara", "ctname": "Almozara" },
   { "country": "ES", "city": "Gràcia", "ctname": "Gràcia" },
   { "country": "ES", "city": "Berga", "ctname": "Berga" },
   { "country": "ES", "city": "Arona", "ctname": "Arona" },
   { "country": "ES", "city": "El Astillero", "ctname": "El Astillero" },
-  { "country": "ES", "city": "Santiago de Compostela", "ctname": "Santiago de Compostela" },
-  { "country": "ES", "city": "Alhaurín de la Torre", "ctname": "Alhaurín de la Torre" },
+  {
+    "country": "ES",
+    "city": "Santiago de Compostela",
+    "ctname": "Santiago de Compostela"
+  },
+  {
+    "country": "ES",
+    "city": "Alhaurín de la Torre",
+    "ctname": "Alhaurín de la Torre"
+  },
   { "country": "ES", "city": "Maó", "ctname": "Maó" },
   { "country": "ES", "city": "Delicias", "ctname": "Delicias" },
   { "country": "ES", "city": "Marbella", "ctname": "Marbella" },
-  { "country": "ES", "city": "Arrasate / Mondragón", "ctname": "Arrasate / Mondragón" },
+  {
+    "country": "ES",
+    "city": "Arrasate / Mondragón",
+    "ctname": "Arrasate / Mondragón"
+  },
   { "country": "ES", "city": "Marratxí", "ctname": "Marratxí" },
   { "country": "ES", "city": "Palafrugell", "ctname": "Palafrugell" },
   { "country": "ES", "city": "Playa del Ingles", "ctname": "Playa del Ingles" },
@@ -2950,18 +3523,38 @@
   { "country": "ES", "city": "Güimar", "ctname": "Güimar" },
   { "country": "ES", "city": "Moguer", "ctname": "Moguer" },
   { "country": "ES", "city": "Gamonal", "ctname": "Gamonal" },
-  { "country": "ES", "city": "Granadilla de Abona", "ctname": "Granadilla de Abona" },
-  { "country": "ES", "city": "Pinar de Chamartín", "ctname": "Pinar de Chamartín" },
+  {
+    "country": "ES",
+    "city": "Granadilla de Abona",
+    "ctname": "Granadilla de Abona"
+  },
+  {
+    "country": "ES",
+    "city": "Pinar de Chamartín",
+    "ctname": "Pinar de Chamartín"
+  },
   { "country": "ES", "city": "Alboraya", "ctname": "Alboraya" },
-  { "country": "ES", "city": "la Maternitat i Sant Ramon", "ctname": "la Maternitat i Sant Ramon" },
-  { "country": "ES", "city": "Grao de Murviedro", "ctname": "Grao de Murviedro" },
+  {
+    "country": "ES",
+    "city": "la Maternitat i Sant Ramon",
+    "ctname": "la Maternitat i Sant Ramon"
+  },
+  {
+    "country": "ES",
+    "city": "Grao de Murviedro",
+    "ctname": "Grao de Murviedro"
+  },
   { "country": "ES", "city": "Burriana", "ctname": "Burriana" },
   { "country": "ES", "city": "Aranda de Duero", "ctname": "Aranda de Duero" },
   { "country": "ES", "city": "Soria", "ctname": "Soria" },
   { "country": "ES", "city": "Sabadell", "ctname": "Sabadell" },
   { "country": "ES", "city": "Ponferrada", "ctname": "Ponferrada" },
   { "country": "ES", "city": "Castro-Urdiales", "ctname": "Castro-Urdiales" },
-  { "country": "ES", "city": "Arcos de la Frontera", "ctname": "Arcos de la Frontera" },
+  {
+    "country": "ES",
+    "city": "Arcos de la Frontera",
+    "ctname": "Arcos de la Frontera"
+  },
   { "country": "ES", "city": "Caravaca", "ctname": "Caravaca" },
   { "country": "ES", "city": "Lugo", "ctname": "Lugo" },
   { "country": "ES", "city": "Bermeo", "ctname": "Bermeo" },
@@ -2971,24 +3564,44 @@
   { "country": "ES", "city": "La Unión", "ctname": "La Unión" },
   { "country": "ES", "city": "Elda", "ctname": "Elda" },
   { "country": "ES", "city": "Sagunto", "ctname": "Sagunto" },
-  { "country": "ES", "city": "Corvera de Asturias", "ctname": "Corvera de Asturias" },
+  {
+    "country": "ES",
+    "city": "Corvera de Asturias",
+    "ctname": "Corvera de Asturias"
+  },
   { "country": "ES", "city": "Horta", "ctname": "Horta" },
   { "country": "ES", "city": "Níjar", "ctname": "Níjar" },
   { "country": "ES", "city": "Iturrama", "ctname": "Iturrama" },
   { "country": "ES", "city": "Campiña", "ctname": "Campiña" },
   { "country": "ES", "city": "Los Realejos", "ctname": "Los Realejos" },
-  { "country": "ES", "city": "Vilanova i la Geltrú", "ctname": "Vilanova i la Geltrú" },
-  { "country": "ES", "city": "Vilafranca del Penedès", "ctname": "Vilafranca del Penedès" },
+  {
+    "country": "ES",
+    "city": "Vilanova i la Geltrú",
+    "ctname": "Vilanova i la Geltrú"
+  },
+  {
+    "country": "ES",
+    "city": "Vilafranca del Penedès",
+    "ctname": "Vilafranca del Penedès"
+  },
   { "country": "ES", "city": "Zamora", "ctname": "Zamora" },
   { "country": "ES", "city": "Segovia", "ctname": "Segovia" },
-  { "country": "ES", "city": "Sant Antoni de Portmany", "ctname": "Sant Antoni de Portmany" },
+  {
+    "country": "ES",
+    "city": "Sant Antoni de Portmany",
+    "ctname": "Sant Antoni de Portmany"
+  },
   { "country": "ES", "city": "Tarragona", "ctname": "Tarragona" },
   { "country": "ES", "city": "Algete", "ctname": "Algete" },
   { "country": "ES", "city": "Alicante", "ctname": "Alicante" },
   { "country": "ES", "city": "Ávila", "ctname": "Ávila" },
   { "country": "ES", "city": "Miranda de Ebro", "ctname": "Miranda de Ebro" },
   { "country": "ES", "city": "Alcorcón", "ctname": "Alcorcón" },
-  { "country": "ES", "city": "l'Antiga Esquerra de l'Eixample", "ctname": "l'Antiga Esquerra de l'Eixample" },
+  {
+    "country": "ES",
+    "city": "l'Antiga Esquerra de l'Eixample",
+    "ctname": "l'Antiga Esquerra de l'Eixample"
+  },
   { "country": "ES", "city": "Mieres", "ctname": "Mieres" },
   { "country": "ES", "city": "Amposta", "ctname": "Amposta" },
   { "country": "ES", "city": "Laguna de Duero", "ctname": "Laguna de Duero" },
@@ -3023,7 +3636,11 @@
   { "country": "CN", "city": "Nanyang", "ctname": "Nanyang" },
   { "country": "CN", "city": "Dazhou", "ctname": "Dazhou" },
   { "country": "CN", "city": "Luohe", "ctname": "Luohe" },
-  { "country": "CN", "city": "Puyang Chengguanzhen", "ctname": "Puyang Chengguanzhen" },
+  {
+    "country": "CN",
+    "city": "Puyang Chengguanzhen",
+    "ctname": "Puyang Chengguanzhen"
+  },
   { "country": "CN", "city": "Xiangyang", "ctname": "Xiangyang" },
   { "country": "CN", "city": "Heze", "ctname": "Heze" },
   { "country": "CN", "city": "Zhoukou", "ctname": "Zhoukou" },
@@ -3407,7 +4024,11 @@
   { "country": "CN", "city": "Babu", "ctname": "Babu" },
   { "country": "BR", "city": "Ribeirão Preto", "ctname": "Ribeirão Preto" },
   { "country": "BR", "city": "Osasco", "ctname": "Osasco" },
-  { "country": "BR", "city": "Ferraz de Vasconcelos", "ctname": "Ferraz de Vasconcelos" },
+  {
+    "country": "BR",
+    "city": "Ferraz de Vasconcelos",
+    "ctname": "Ferraz de Vasconcelos"
+  },
   { "country": "BR", "city": "Santos", "ctname": "Santos" },
   { "country": "BR", "city": "São Paulo", "ctname": "São Paulo" },
   { "country": "BR", "city": "Jardim Paulista", "ctname": "Jardim Paulista" },
@@ -3424,18 +4045,42 @@
   { "country": "BR", "city": "Limeira", "ctname": "Limeira" },
   { "country": "BR", "city": "Santa Gertrudes", "ctname": "Santa Gertrudes" },
   { "country": "BR", "city": "Araraquara", "ctname": "Araraquara" },
-  { "country": "BR", "city": "São Bernardo do Campo", "ctname": "São Bernardo do Campo" },
+  {
+    "country": "BR",
+    "city": "São Bernardo do Campo",
+    "ctname": "São Bernardo do Campo"
+  },
   { "country": "BR", "city": "Guarulhos", "ctname": "Guarulhos" },
   { "country": "BR", "city": "Sorocaba", "ctname": "Sorocaba" },
-  { "country": "BR", "city": "Rio Grande da Serra", "ctname": "Rio Grande da Serra" },
-  { "country": "BR", "city": "São José dos Campos", "ctname": "São José dos Campos" },
+  {
+    "country": "BR",
+    "city": "Rio Grande da Serra",
+    "ctname": "Rio Grande da Serra"
+  },
+  {
+    "country": "BR",
+    "city": "São José dos Campos",
+    "ctname": "São José dos Campos"
+  },
   { "country": "BR", "city": "Cachoeirinha", "ctname": "Cachoeirinha" },
   { "country": "BR", "city": "Americana", "ctname": "Americana" },
-  { "country": "BR", "city": "São José do Rio Preto", "ctname": "São José do Rio Preto" },
+  {
+    "country": "BR",
+    "city": "São José do Rio Preto",
+    "ctname": "São José do Rio Preto"
+  },
   { "country": "BR", "city": "Taquara", "ctname": "Taquara" },
   { "country": "BR", "city": "Paulínia", "ctname": "Paulínia" },
-  { "country": "BR", "city": "Presidente Prudente", "ctname": "Presidente Prudente" },
-  { "country": "BR", "city": "São Caetano do Sul", "ctname": "São Caetano do Sul" },
+  {
+    "country": "BR",
+    "city": "Presidente Prudente",
+    "ctname": "Presidente Prudente"
+  },
+  {
+    "country": "BR",
+    "city": "São Caetano do Sul",
+    "ctname": "São Caetano do Sul"
+  },
   { "country": "BR", "city": "Sapiranga", "ctname": "Sapiranga" },
   { "country": "BR", "city": "Taboão da Serra", "ctname": "Taboão da Serra" },
   { "country": "BR", "city": "Tatuí", "ctname": "Tatuí" },
@@ -3451,7 +4096,11 @@
   { "country": "BR", "city": "Diadema", "ctname": "Diadema" },
   { "country": "BR", "city": "São Leopoldo", "ctname": "São Leopoldo" },
   { "country": "BR", "city": "Jaú", "ctname": "Jaú" },
-  { "country": "BR", "city": "São João da Boa Vista", "ctname": "São João da Boa Vista" },
+  {
+    "country": "BR",
+    "city": "São João da Boa Vista",
+    "ctname": "São João da Boa Vista"
+  },
   { "country": "BR", "city": "Brasília", "ctname": "Brasília" },
   { "country": "US", "city": "Calexico", "ctname": "Calexico" },
   { "country": "US", "city": "DeSoto", "ctname": "DeSoto" },
@@ -3515,14 +4164,22 @@
   { "country": "US", "city": "Greenville", "ctname": "Greenville" },
   { "country": "US", "city": "Caledonia", "ctname": "Caledonia" },
   { "country": "US", "city": "South Chicago", "ctname": "South Chicago" },
-  { "country": "US", "city": "West University Place", "ctname": "West University Place" },
+  {
+    "country": "US",
+    "city": "West University Place",
+    "ctname": "West University Place"
+  },
   { "country": "US", "city": "Flint", "ctname": "Flint" },
   { "country": "US", "city": "New Castle", "ctname": "New Castle" },
   { "country": "US", "city": "Ypsilanti", "ctname": "Ypsilanti" },
   { "country": "US", "city": "Madison", "ctname": "Madison" },
   { "country": "US", "city": "Ken Caryl", "ctname": "Ken Caryl" },
   { "country": "US", "city": "Decatur", "ctname": "Decatur" },
-  { "country": "US", "city": "East Rancho Dominguez", "ctname": "East Rancho Dominguez" },
+  {
+    "country": "US",
+    "city": "East Rancho Dominguez",
+    "ctname": "East Rancho Dominguez"
+  },
   { "country": "US", "city": "Griffith", "ctname": "Griffith" },
   { "country": "US", "city": "Traverse City", "ctname": "Traverse City" },
   { "country": "US", "city": "Fitchburg", "ctname": "Fitchburg" },
@@ -3544,7 +4201,11 @@
   { "country": "US", "city": "Eau Claire", "ctname": "Eau Claire" },
   { "country": "US", "city": "Affton", "ctname": "Affton" },
   { "country": "US", "city": "Granite City", "ctname": "Granite City" },
-  { "country": "US", "city": "East Independence", "ctname": "East Independence" },
+  {
+    "country": "US",
+    "city": "East Independence",
+    "ctname": "East Independence"
+  },
   { "country": "US", "city": "Saint Michael", "ctname": "Saint Michael" },
   { "country": "US", "city": "Kansas City", "ctname": "Kansas City" },
   { "country": "US", "city": "Shively", "ctname": "Shively" },
@@ -3712,7 +4373,11 @@
   { "country": "US", "city": "West Mifflin", "ctname": "West Mifflin" },
   { "country": "US", "city": "Anderson", "ctname": "Anderson" },
   { "country": "US", "city": "Hendersonville", "ctname": "Hendersonville" },
-  { "country": "US", "city": "Jacksonville Beach", "ctname": "Jacksonville Beach" },
+  {
+    "country": "US",
+    "city": "Jacksonville Beach",
+    "ctname": "Jacksonville Beach"
+  },
   { "country": "US", "city": "Morrisville", "ctname": "Morrisville" },
   { "country": "US", "city": "Columbia", "ctname": "Columbia" },
   { "country": "US", "city": "Seymour", "ctname": "Seymour" },
@@ -3728,7 +4393,11 @@
   { "country": "US", "city": "York", "ctname": "York" },
   { "country": "US", "city": "Elizabethtown", "ctname": "Elizabethtown" },
   { "country": "US", "city": "Sun City Center", "ctname": "Sun City Center" },
-  { "country": "US", "city": "North Little Rock", "ctname": "North Little Rock" },
+  {
+    "country": "US",
+    "city": "North Little Rock",
+    "ctname": "North Little Rock"
+  },
   { "country": "US", "city": "Painesville", "ctname": "Painesville" },
   { "country": "US", "city": "Golden Gate", "ctname": "Golden Gate" },
   { "country": "US", "city": "Culver City", "ctname": "Culver City" },
@@ -3770,7 +4439,11 @@
   { "country": "US", "city": "Birmingham", "ctname": "Birmingham" },
   { "country": "US", "city": "Lebanon", "ctname": "Lebanon" },
   { "country": "US", "city": "Fresno", "ctname": "Fresno" },
-  { "country": "US", "city": "Carrollwood Village", "ctname": "Carrollwood Village" },
+  {
+    "country": "US",
+    "city": "Carrollwood Village",
+    "ctname": "Carrollwood Village"
+  },
   { "country": "US", "city": "Burlington", "ctname": "Burlington" },
   { "country": "US", "city": "Warner Robins", "ctname": "Warner Robins" },
   { "country": "US", "city": "Danbury", "ctname": "Danbury" },
@@ -3827,7 +4500,11 @@
   { "country": "US", "city": "Santa Clarita", "ctname": "Santa Clarita" },
   { "country": "US", "city": "Hampton", "ctname": "Hampton" },
   { "country": "US", "city": "Kirkwood", "ctname": "Kirkwood" },
-  { "country": "US", "city": "Kew Gardens Hills", "ctname": "Kew Gardens Hills" },
+  {
+    "country": "US",
+    "city": "Kew Gardens Hills",
+    "ctname": "Kew Gardens Hills"
+  },
   { "country": "US", "city": "Oceanside", "ctname": "Oceanside" },
   { "country": "US", "city": "Greeley", "ctname": "Greeley" },
   { "country": "US", "city": "Columbine", "ctname": "Columbine" },
@@ -3851,7 +4528,11 @@
   { "country": "US", "city": "Bethlehem", "ctname": "Bethlehem" },
   { "country": "US", "city": "Alief", "ctname": "Alief" },
   { "country": "US", "city": "Hillsboro", "ctname": "Hillsboro" },
-  { "country": "US", "city": "Washington Heights", "ctname": "Washington Heights" },
+  {
+    "country": "US",
+    "city": "Washington Heights",
+    "ctname": "Washington Heights"
+  },
   { "country": "US", "city": "Banning", "ctname": "Banning" },
   { "country": "US", "city": "Hawthorne", "ctname": "Hawthorne" },
   { "country": "US", "city": "Chinatown", "ctname": "Chinatown" },
@@ -3876,12 +4557,20 @@
   { "country": "US", "city": "Lemon Grove", "ctname": "Lemon Grove" },
   { "country": "US", "city": "Jollyville", "ctname": "Jollyville" },
   { "country": "US", "city": "Wenatchee", "ctname": "Wenatchee" },
-  { "country": "US", "city": "Visitacion Valley", "ctname": "Visitacion Valley" },
+  {
+    "country": "US",
+    "city": "Visitacion Valley",
+    "ctname": "Visitacion Valley"
+  },
   { "country": "US", "city": "Nampa", "ctname": "Nampa" },
   { "country": "US", "city": "Casper", "ctname": "Casper" },
   { "country": "US", "city": "Cookeville", "ctname": "Cookeville" },
   { "country": "US", "city": "La Jolla", "ctname": "La Jolla" },
-  { "country": "US", "city": "Lewiston Orchards", "ctname": "Lewiston Orchards" },
+  {
+    "country": "US",
+    "city": "Lewiston Orchards",
+    "ctname": "Lewiston Orchards"
+  },
   { "country": "US", "city": "Lynn", "ctname": "Lynn" },
   { "country": "US", "city": "Easton", "ctname": "Easton" },
   { "country": "US", "city": "Texarkana", "ctname": "Texarkana" },
@@ -3890,7 +4579,11 @@
   { "country": "US", "city": "Olive Branch", "ctname": "Olive Branch" },
   { "country": "US", "city": "Yakima", "ctname": "Yakima" },
   { "country": "US", "city": "Cheyenne", "ctname": "Cheyenne" },
-  { "country": "US", "city": "Socorro Mission Number 1 Colonia", "ctname": "Socorro Mission Number 1 Colonia" },
+  {
+    "country": "US",
+    "city": "Socorro Mission Number 1 Colonia",
+    "ctname": "Socorro Mission Number 1 Colonia"
+  },
   { "country": "US", "city": "Cleveland", "ctname": "Cleveland" },
   { "country": "US", "city": "Jackson", "ctname": "Jackson" },
   { "country": "US", "city": "Folsom", "ctname": "Folsom" },
@@ -3936,7 +4629,11 @@
   { "country": "US", "city": "Ponca City", "ctname": "Ponca City" },
   { "country": "US", "city": "Canoga Park", "ctname": "Canoga Park" },
   { "country": "US", "city": "Hernando", "ctname": "Hernando" },
-  { "country": "US", "city": "La Cañada Flintridge", "ctname": "La Cañada Flintridge" },
+  {
+    "country": "US",
+    "city": "La Cañada Flintridge",
+    "ctname": "La Cañada Flintridge"
+  },
   { "country": "US", "city": "Portsmouth", "ctname": "Portsmouth" },
   { "country": "US", "city": "Enchanted Hills", "ctname": "Enchanted Hills" },
   { "country": "US", "city": "Redding", "ctname": "Redding" },
@@ -4045,7 +4742,11 @@
   { "country": "US", "city": "Concord", "ctname": "Concord" },
   { "country": "US", "city": "Bozeman", "ctname": "Bozeman" },
   { "country": "US", "city": "Monroe", "ctname": "Monroe" },
-  { "country": "US", "city": "Mountlake Terrace", "ctname": "Mountlake Terrace" },
+  {
+    "country": "US",
+    "city": "Mountlake Terrace",
+    "ctname": "Mountlake Terrace"
+  },
   { "country": "US", "city": "Tracy", "ctname": "Tracy" },
   { "country": "US", "city": "Mesa", "ctname": "Mesa" },
   { "country": "US", "city": "North Salt Lake", "ctname": "North Salt Lake" },
@@ -4053,7 +4754,11 @@
   { "country": "US", "city": "Brigham City", "ctname": "Brigham City" },
   { "country": "US", "city": "Lents", "ctname": "Lents" },
   { "country": "US", "city": "Parkland", "ctname": "Parkland" },
-  { "country": "US", "city": "West Falls Church", "ctname": "West Falls Church" },
+  {
+    "country": "US",
+    "city": "West Falls Church",
+    "ctname": "West Falls Church"
+  },
   { "country": "US", "city": "Vallejo", "ctname": "Vallejo" },
   { "country": "US", "city": "Ogden", "ctname": "Ogden" },
   { "country": "US", "city": "Kennewick", "ctname": "Kennewick" },
@@ -4082,7 +4787,11 @@
   { "country": "US", "city": "Noe Valley", "ctname": "Noe Valley" },
   { "country": "US", "city": "Elk Grove", "ctname": "Elk Grove" },
   { "country": "US", "city": "Chatsworth", "ctname": "Chatsworth" },
-  { "country": "US", "city": "Palm River-Clair Mel", "ctname": "Palm River-Clair Mel" },
+  {
+    "country": "US",
+    "city": "Palm River-Clair Mel",
+    "ctname": "Palm River-Clair Mel"
+  },
   { "country": "US", "city": "Greenbelt", "ctname": "Greenbelt" },
   { "country": "US", "city": "Eugene", "ctname": "Eugene" },
   { "country": "US", "city": "Rio Linda", "ctname": "Rio Linda" },
@@ -4164,7 +4873,11 @@
   { "country": "JP", "city": "Enzan", "ctname": "Enzan" },
   { "country": "JP", "city": "Himeji", "ctname": "Himeji" },
   { "country": "JP", "city": "Amagasaki", "ctname": "Amagasaki" },
-  { "country": "JP", "city": "Kannabechō-yahiro", "ctname": "Kannabechō-yahiro" },
+  {
+    "country": "JP",
+    "city": "Kannabechō-yahiro",
+    "ctname": "Kannabechō-yahiro"
+  },
   { "country": "JP", "city": "Tokushima", "ctname": "Tokushima" },
   { "country": "JP", "city": "Mobara", "ctname": "Mobara" },
   { "country": "JP", "city": "Shimodate", "ctname": "Shimodate" },
@@ -4177,7 +4890,11 @@
   { "country": "JP", "city": "Nishinomiya-hama", "ctname": "Nishinomiya-hama" },
   { "country": "JP", "city": "Takamatsu", "ctname": "Takamatsu" },
   { "country": "JP", "city": "Toyohashi", "ctname": "Toyohashi" },
-  { "country": "JP", "city": "Tatsunochō-tominaga", "ctname": "Tatsunochō-tominaga" },
+  {
+    "country": "JP",
+    "city": "Tatsunochō-tominaga",
+    "ctname": "Tatsunochō-tominaga"
+  },
   { "country": "JP", "city": "Toyonaka", "ctname": "Toyonaka" },
   { "country": "JP", "city": "Kobe", "ctname": "Kobe" },
   { "country": "JP", "city": "Yōkaichiba", "ctname": "Yōkaichiba" },
@@ -4186,10 +4903,18 @@
   { "country": "JP", "city": "Kasaoka", "ctname": "Kasaoka" },
   { "country": "JP", "city": "Kashima-shi", "ctname": "Kashima-shi" },
   { "country": "JP", "city": "Niihama", "ctname": "Niihama" },
-  { "country": "JP", "city": "Kamogatachō-kamogata", "ctname": "Kamogatachō-kamogata" },
+  {
+    "country": "JP",
+    "city": "Kamogatachō-kamogata",
+    "ctname": "Kamogatachō-kamogata"
+  },
   { "country": "JP", "city": "Ōmuta", "ctname": "Ōmuta" },
   { "country": "JP", "city": "Yachimata", "ctname": "Yachimata" },
-  { "country": "JP", "city": "Kakogawachō-honmachi", "ctname": "Kakogawachō-honmachi" },
+  {
+    "country": "JP",
+    "city": "Kakogawachō-honmachi",
+    "ctname": "Kakogawachō-honmachi"
+  },
   { "country": "JP", "city": "Takaishi", "ctname": "Takaishi" },
   { "country": "JP", "city": "Gyōda", "ctname": "Gyōda" },
   { "country": "JP", "city": "Yokohama", "ctname": "Yokohama" },
@@ -4204,7 +4929,11 @@
   { "country": "JP", "city": "Noda", "ctname": "Noda" },
   { "country": "JP", "city": "Shiroi", "ctname": "Shiroi" },
   { "country": "JP", "city": "Moriguchi", "ctname": "Moriguchi" },
-  { "country": "JP", "city": "Narutochō-mitsuishi", "ctname": "Narutochō-mitsuishi" },
+  {
+    "country": "JP",
+    "city": "Narutochō-mitsuishi",
+    "ctname": "Narutochō-mitsuishi"
+  },
   { "country": "JP", "city": "Fujisawa", "ctname": "Fujisawa" },
   { "country": "JP", "city": "Menuma", "ctname": "Menuma" },
   { "country": "JP", "city": "Kasukabe", "ctname": "Kasukabe" },
@@ -4212,7 +4941,11 @@
   { "country": "JP", "city": "Chiba", "ctname": "Chiba" },
   { "country": "JP", "city": "Fukuyama", "ctname": "Fukuyama" },
   { "country": "JP", "city": "Nara-shi", "ctname": "Nara-shi" },
-  { "country": "JP", "city": "Minakuchichō-matoba", "ctname": "Minakuchichō-matoba" },
+  {
+    "country": "JP",
+    "city": "Minakuchichō-matoba",
+    "ctname": "Minakuchichō-matoba"
+  },
   { "country": "JP", "city": "Koga", "ctname": "Koga" },
   { "country": "JP", "city": "Asahikawa", "ctname": "Asahikawa" },
   { "country": "JP", "city": "Kōfu", "ctname": "Kōfu" },
@@ -4237,7 +4970,11 @@
   { "country": "JP", "city": "Kaizuka", "ctname": "Kaizuka" },
   { "country": "JP", "city": "Honchō", "ctname": "Honchō" },
   { "country": "JP", "city": "Masaki-chō", "ctname": "Masaki-chō" },
-  { "country": "JP", "city": "Shirahamachō-usazakiminami", "ctname": "Shirahamachō-usazakiminami" },
+  {
+    "country": "JP",
+    "city": "Shirahamachō-usazakiminami",
+    "ctname": "Shirahamachō-usazakiminami"
+  },
   { "country": "JP", "city": "Naka", "ctname": "Naka" },
   { "country": "JP", "city": "Urayasu", "ctname": "Urayasu" },
   { "country": "JP", "city": "Kawaguchi", "ctname": "Kawaguchi" },
@@ -4313,7 +5050,11 @@
   { "country": "JP", "city": "Kukichūō", "ctname": "Kukichūō" },
   { "country": "JP", "city": "Minamata", "ctname": "Minamata" },
   { "country": "JP", "city": "Sakado", "ctname": "Sakado" },
-  { "country": "JP", "city": "Kamojimachō-jōgejima", "ctname": "Kamojimachō-jōgejima" },
+  {
+    "country": "JP",
+    "city": "Kamojimachō-jōgejima",
+    "ctname": "Kamojimachō-jōgejima"
+  },
   { "country": "JP", "city": "Miura", "ctname": "Miura" },
   { "country": "JP", "city": "Machida", "ctname": "Machida" },
   { "country": "JP", "city": "Nagasaki", "ctname": "Nagasaki" },
@@ -4498,7 +5239,11 @@
   { "country": "JP", "city": "Yokote", "ctname": "Yokote" },
   { "country": "JP", "city": "Fukui-shi", "ctname": "Fukui-shi" },
   { "country": "JP", "city": "Kagoshima", "ctname": "Kagoshima" },
-  { "country": "JP", "city": "Ureshinomachi-shimojuku", "ctname": "Ureshinomachi-shimojuku" },
+  {
+    "country": "JP",
+    "city": "Ureshinomachi-shimojuku",
+    "ctname": "Ureshinomachi-shimojuku"
+  },
   { "country": "JP", "city": "Rifu", "ctname": "Rifu" },
   { "country": "JP", "city": "Ina", "ctname": "Ina" },
   { "country": "JP", "city": "Matsutō", "ctname": "Matsutō" },
@@ -4509,7 +5254,11 @@
   { "country": "JP", "city": "Tomioka", "ctname": "Tomioka" },
   { "country": "JP", "city": "Kanazawa", "ctname": "Kanazawa" },
   { "country": "JP", "city": "Mikuni", "ctname": "Mikuni" },
-  { "country": "JP", "city": "Tanushimarumachi-toyoki", "ctname": "Tanushimarumachi-toyoki" },
+  {
+    "country": "JP",
+    "city": "Tanushimarumachi-toyoki",
+    "ctname": "Tanushimarumachi-toyoki"
+  },
   { "country": "JP", "city": "Kamirenjaku", "ctname": "Kamirenjaku" },
   { "country": "JP", "city": "Kurayoshi", "ctname": "Kurayoshi" },
   { "country": "JP", "city": "Sumoto", "ctname": "Sumoto" },
