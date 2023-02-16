@@ -66,7 +66,7 @@ const Rankings = ({ woff }) => {
             <input
               className="w-full bg-light-grey-lime px-3 py-1 rounded-r outline-none"
               type="text"
-              placeholder="City name..."
+              placeholder="Country name..."
               onChange={(event) => {
                 setSearchWord(event.target.value);
               }}
