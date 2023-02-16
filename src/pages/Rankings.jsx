@@ -30,7 +30,7 @@ const Rankings = ({ woff }) => {
 
   const [sm, setSm] = useState(true);
   useEffect(() => {
-    if (filteredCountries.length < 10) {
+    if (filteredCountries.length <= 10) {
       setSm(false);
     } else {
       setSm(true);
