@@ -22,6 +22,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
+.stationStatsBox::-webkit-scrollbar {
+  height: 4px;
+}
+
+.stationStatsBox::-webkit-scrollbar-thumb {
+  background-color: #d1d1d1;
+  border-radius: 5px;
+}
+
 body {
   margin: 0;
   padding: 0;

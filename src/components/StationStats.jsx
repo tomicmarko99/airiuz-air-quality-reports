@@ -11,7 +11,7 @@ const StationStats = ({ aqi, city }) => {
             Real-time Monitoring of Air Quality Parameters in {city}
           </div>
         </div>
-        <div className="md:overflow-x-hidden overflow-x-scroll flex pb-5 mt-5">
+        <div className="stationStatsBox md:overflow-x-hidden overflow-x-scroll flex pb-3 mt-5">
           <div className="md:w-full flex text-[14px] md:text-[16px] flex-col border-2 border-medium-grey rounded-md">
             <div className="grid grid-cols-3 bg-glass-black flex items-center md:w-full w-[680px]">
               <div className="p-3 border-r-2 border-medium-grey">

@@ -43,7 +43,7 @@ const Station = () => {
           Air quality index (AQI) and PM2.5 air pollution in {cityName}
         </div>
         {unknown ? (
-          <div>Data not Found</div>
+          <div>No Data Found</div>
         ) : (
           <>
             <div className="w-full mt-5">
