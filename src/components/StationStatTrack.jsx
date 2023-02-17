@@ -8,7 +8,7 @@ const StationStatTrack = ({ aqi }) => {
     <div
       className={`w-full text-[18px] md:text-[22px] font-semibold text-very-dark-grey p-5 ${Statf(
         aqi
-      )} rounded-md flex justify-between items-center gap-2`}
+      )} rounded-tl-md rounded-tr-md flex justify-between items-center gap-2`}
     >
       <div className="flex md:flex-row flex-col gap-3 items-center">
         <div className="bg-glass-black p-5 rounded-md flex justify-center md:w-auto w-full">

@@ -12,6 +12,7 @@ module.exports = {
         "very-dark-grey": "#434242",
         "light-grey-lime": "#EAEBEA",
         "very-light-grey": "#757575",
+        "medium-grey": "#D1D1D1",
         "very-dark-white": "#F5F5F5",
         "bgr-white": "#F2F3F0",
         "glass-black": "rgba(0,0,0,.1)",

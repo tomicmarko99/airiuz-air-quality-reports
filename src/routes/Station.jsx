@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import StationStats from "../components/StationStats";
 import StationStatTrack from "../components/StationStatTrack";
 
 const Station = () => {
@@ -47,6 +48,7 @@ const Station = () => {
           <>
             <div className="w-full mt-5">
               <StationStatTrack aqi={stationData.data?.aqi} />
+              <StationStats aqi={stationData.data} city={cityName} />
             </div>
           </>
         )}
