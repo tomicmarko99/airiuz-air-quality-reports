@@ -1,5 +1,6 @@
 import React from "react";
 import Statif from "../functions/Statif";
+import AqiCharts from "../components/AqiCharts";
 
 const StationStats = ({ aqi, city }) => {
   return (
@@ -13,7 +14,7 @@ const StationStats = ({ aqi, city }) => {
         </div>
         <div className="stationStatsBox md:overflow-x-hidden overflow-x-scroll flex pb-3 mt-5">
           <div className="md:w-full flex text-[14px] md:text-[16px] flex-col border-2 border-medium-grey rounded-md">
-            <div className="grid grid-cols-3 bg-glass-black flex items-center md:w-full w-[680px]">
+            <div className="grid grid-cols-3 bg-[#E5E5E5] rounded-tl rounded-tr flex items-center md:w-full w-[680px]">
               <div className="p-3 border-r-2 border-medium-grey">
                 Air pollution status
               </div>
@@ -32,6 +33,31 @@ const StationStats = ({ aqi, city }) => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="mt-5">
+        <div className="font-medium">
+          <div className="text-soft-blue">Forecast</div>
+          <div className="text-[18px] md:text-[22px] text-very-light-grey">
+            Predictions of future levels of air pollution in {city}
+          </div>
+        </div>
+        <div className="w-full mt-5">
+          <div className="w-full flex gap-5 text-veery-dark-grey text-[14px] md:text-[16px] mb-4">
+            <div className="flex gap-2 items-center">
+              <div className="w-[15px] h-[15px] md:w-[25px] md:h-[25px] rounded-full bg-[rgb(54,162,235)]"></div>
+              PM2.5
+            </div>
+            <div className="flex gap-2 items-center">
+              <div className="w-[15px] h-[15px] md:w-[25px] md:h-[25px] rounded-full bg-[rgb(75,192,192)]"></div>
+              PM10
+            </div>
+            <div className="flex gap-2 items-center">
+              <div className="w-[15px] h-[15px] md:w-[25px] md:h-[25px] rounded-full bg-[rgb(153,102,255)]"></div>
+              O3
+            </div>
+          </div>
+          <AqiCharts forecastData={aqi?.forecast?.daily} />
         </div>
       </div>
     </div>
