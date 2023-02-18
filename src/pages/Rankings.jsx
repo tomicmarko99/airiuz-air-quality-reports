@@ -104,18 +104,23 @@ const Rankings = ({ woff }) => {
           .map((country, index) => {
             if (country.country !== "XK") {
               return (
-                <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center text-very-dark-grey">
-                  <div className="flex gap-2 items-center">
-                    <p className="w-[36px] font-semibold">{country.id}.</p>
+                <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center gap-2 text-very-dark-grey">
+                  <div className="flex items-center gap-2">
+                    <div>
+                      <p className="w-[36px] font-semibold">{country.id}.</p>
+                    </div>
+
                     <ReactCountryFlag countryCode={country.country} />
                     <p>{getCountryName(country.country)}</p>
                   </div>
-                  <div
-                    className={`status-box text-white p-1 ${Statf(
-                      country.aqi
-                    )} w-[60px] flex justify-center items-center rounded-md`}
-                  >
-                    {country.aqi}
+                  <div>
+                    <div
+                      className={`status-box text-white p-1 ${Statf(
+                        country.aqi
+                      )} w-[60px] flex justify-center items-center rounded-md`}
+                    >
+                      {country.aqi}
+                    </div>
                   </div>
                 </div>
               );

@@ -29,7 +29,10 @@ const Station = () => {
   }, []);
   const [unknown, setUnknown] = useState(false);
   useEffect(() => {
-    if (stationData.data === "Unknown station") {
+    if (
+      stationData.data === "Unknown station" ||
+      stationData.data?.aqi === "-"
+    ) {
       setUnknown(true);
     }
   });

@@ -3,7 +3,7 @@ import Statif from "../functions/Statif";
 
 const StationStats = ({ aqi, city }) => {
   return (
-    <div className="w-full bg-white text-[16px] md:text-[18px] text-very-dark-grey p-5 ">
+    <div className="w-full bg-white text-[16px] md:text-[18px] text-very-dark-grey p-5 rounded-bl-md rounded-br-md shadow-md">
       <div>
         <div className="font-medium">
           <div className="text-soft-blue">Overview</div>
@@ -17,7 +17,7 @@ const StationStats = ({ aqi, city }) => {
               <div className="p-3 border-r-2 border-medium-grey">
                 Air pollution status
               </div>
-              <div className="p-3">AQI</div>
+              <div className="p-3">Air quality index</div>
               <div className="p-3 p-3 border-l-2 border-medium-grey">
                 Main pollutant
               </div>
