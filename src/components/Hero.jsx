@@ -26,13 +26,13 @@ const Hero = ({ aqiData }) => {
           </h2>
           <div className="text-[16px] font-medium flex gap-8 mt-6">
             <Link
-              to="/"
+              to="/city/here"
               className="text-very-dark-grey bg-soft-yellow hover:bg-light-yellow px-[20px] md:px-[40px] py-2 rounded transition ease-in duration-100"
             >
               Track AQI
             </Link>
             <Link
-              to="/"
+              to="/about"
               className="text-very-dark-white hover:text-white flex items-center gap-2 transition ease-in duration-100"
             >
               Learn more <FaChevronRight />

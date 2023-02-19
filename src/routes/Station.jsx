@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { FaExclamationTriangle } from "react-icons/fa";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import StationSearch from "../components/StationSearch";
 import StationStats from "../components/StationStats";
 import StationStatTrack from "../components/StationStatTrack";
@@ -9,6 +9,7 @@ import StationStatTrack from "../components/StationStatTrack";
 const Station = () => {
   const { cityName } = useParams();
   const [fixedCity, setFixedCity] = useState(`${cityName}`);
+  const [targetStation, setTargetStation] = useState(false);
   useEffect(() => {
     if (cityName === "Mitrovica") {
       setFixedCity("Mitrovicë");
@@ -25,7 +26,14 @@ const Station = () => {
     }
   }, [cityName]);
 
-  const navigate = useNavigate();
+  useEffect(() => {
+    if (cityName === "here") {
+      setTargetStation(true);
+    } else {
+      setTargetStation(false);
+    }
+  }, [cityName]);
+
   const [stationData, setStationData] = useState([]);
   const [unknown, setUnknown] = useState(false);
 
@@ -52,7 +60,8 @@ const Station = () => {
 
       <div className="w-full max-w-[1080px] text-very-dark-grey items-center">
         <div className="text-[24px] md:text-[40px] font-semibold">
-          Air Quality in {cityName}
+          Air Quality in{" "}
+          {targetStation ? stationData.data?.city.name : cityName}
         </div>
         <div className="text-[18px] md:text-[22px] text-soft-blue">
           Air quality index (AQI) and PM2.5 air pollution in {cityName}
