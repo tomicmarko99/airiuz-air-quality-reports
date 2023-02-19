@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
+import { FaExclamationTriangle } from "react-icons/fa";
 import { useParams, useNavigate } from "react-router-dom";
 import StationSearch from "../components/StationSearch";
 import StationStats from "../components/StationStats";
@@ -43,12 +44,8 @@ const Station = () => {
     });
   }, [fixedCity]);
 
-  const onSearchSubmit = (city) => {
-    navigate(`/station/${city}`);
-  };
-
   return (
-    <div className="w-full bg-bgr-white px-5 py-16 pt-28 flex flex-col items-center align-center">
+    <div className="w-full min-h-[100vh] bg-bgr-white px-5 py-16 pt-28 flex flex-col items-center align-center">
       <div className="w-full max-w-[1080px] mb-8 flex justify-end">
         <StationSearch />
       </div>
@@ -61,7 +58,9 @@ const Station = () => {
           Air quality index (AQI) and PM2.5 air pollution in {cityName}
         </div>
         {unknown ? (
-          <div>No Data Found</div>
+          <div className="flex gap-2 text-[16px] md:text-[18px] mt-12 justify-center items-center font-semibold">
+            No Data Found <FaExclamationTriangle />
+          </div>
         ) : (
           <>
             <div className="w-full mt-5">
