@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import StationSearch from "../components/StationSearch";
 import StationStats from "../components/StationStats";
 import StationStatTrack from "../components/StationStatTrack";
 
@@ -18,26 +19,40 @@ const Station = () => {
       setFixedCity("Gjakovë");
     } else if (cityName === "Stimlje") {
       setFixedCity("Shtime");
+    } else {
+      setFixedCity(cityName);
     }
-  });
-  const stationUrl = `https://api.waqi.info/feed/${fixedCity}/?token=fe7f80903a47cd16d31da36d7bee8aa8d5eee45f`;
+  }, [cityName]);
+
+  const navigate = useNavigate();
   const [stationData, setStationData] = useState([]);
+  const [unknown, setUnknown] = useState(false);
+
   useEffect(() => {
+    const stationUrl = `https://api.waqi.info/feed/${fixedCity}/?token=fe7f80903a47cd16d31da36d7bee8aa8d5eee45f`;
     axios.get(stationUrl).then((response) => {
       setStationData(response.data);
+      if (
+        response.data.data === "Unknown station" ||
+        response.data.data?.aqi === "-"
+      ) {
+        setUnknown(true);
+      } else {
+        setUnknown(false);
+      }
     });
-  }, []);
-  const [unknown, setUnknown] = useState(false);
-  useEffect(() => {
-    if (
-      stationData.data === "Unknown station" ||
-      stationData.data?.aqi === "-"
-    ) {
-      setUnknown(true);
-    }
-  });
+  }, [fixedCity]);
+
+  const onSearchSubmit = (city) => {
+    navigate(`/station/${city}`);
+  };
+
   return (
-    <div className="w-full bg-bgr-white px-5 py-16 pt-28 flex justify-center align-center">
+    <div className="w-full bg-bgr-white px-5 py-16 pt-28 flex flex-col items-center align-center">
+      <div className="w-full max-w-[1080px] mb-8 flex justify-end">
+        <StationSearch />
+      </div>
+
       <div className="w-full max-w-[1080px] text-very-dark-grey items-center">
         <div className="text-[24px] md:text-[40px] font-semibold">
           Air Quality in {cityName}

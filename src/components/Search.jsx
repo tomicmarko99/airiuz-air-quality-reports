@@ -6,7 +6,7 @@ import ReactCountryFlag from "react-country-flag";
 import latinize from "latinize";
 import styled from "styled-components";
 
-const Search = ({ cityName, aqiData }) => {
+const Search = () => {
   const [searchWord, setSearchWord] = useState("");
 
   const filteredCities = cities.filter((city) =>
