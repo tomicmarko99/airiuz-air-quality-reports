@@ -52,6 +52,9 @@ const Navbar = () => {
           <Link to="/about" className="hover:text-white">
             About
           </Link>
+          <Link to="/city/here" className="hover:text-white">
+            AQI
+          </Link>
           <Link to="/rankings" className="hover:text-white">
             Rankings
           </Link>
@@ -87,6 +90,13 @@ const Navbar = () => {
               className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white  px-5"
             >
               About
+            </Link>
+            <Link
+              to="/city/here"
+              onClick={changeExpanded}
+              className="flex gap-3 py-1 items-center hover:text-melon-white hover:bg-bgr-white  px-5"
+            >
+              AQI
             </Link>
             <Link
               to="/rankings"

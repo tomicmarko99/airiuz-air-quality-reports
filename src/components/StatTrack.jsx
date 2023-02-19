@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StatTrack = ({ cityName, aqi }) => {
@@ -35,11 +36,13 @@ const StatTrack = ({ cityName, aqi }) => {
     <div className="w-full flex items-center justify-center px-5 py-2">
       <div className="w-full max-w-[1080px] text-[16px] md:text-[18px] text-very-dark-white font-medium py-2 rounded-md flex flex-col md:flex-row gap-2 justify-between">
         <StatComponent className="flex gap-5 justify-center py-2 px-5 rounded-md items-center">
-          <div className={`w-[20px] h-[20px] ${statusColor} rounded-full `}></div>
+          <div
+            className={`w-[20px] h-[20px] ${statusColor} rounded-full `}
+          ></div>
           {cityName ? (
-            <p className="flex items-center gap-2">
+            <Link to="/city/here" className="flex items-center gap-2">
               <FaMapMarkerAlt /> {cityName}
-            </p>
+            </Link>
           ) : (
             "Loading..."
           )}

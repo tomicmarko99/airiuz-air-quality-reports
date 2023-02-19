@@ -104,7 +104,10 @@ const Rankings = ({ woff }) => {
           .map((country, index) => {
             if (country.country !== "XK") {
               return (
-                <div className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center gap-2 text-very-dark-grey">
+                <div
+                  key={index}
+                  className="w-full bg-[rgba(0,0,0,.1)] px-3 py-2 rounded-md flex justify-between items-center gap-2 text-very-dark-grey"
+                >
                   <div className="flex items-center gap-2">
                     <div>
                       <p className="w-[36px] font-semibold">{country.id}.</p>
