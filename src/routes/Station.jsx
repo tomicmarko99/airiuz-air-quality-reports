@@ -61,10 +61,10 @@ const Station = () => {
       <div className="w-full max-w-[1080px] text-very-dark-grey items-center">
         <div className="text-[24px] md:text-[40px] font-semibold">
           Air Quality in{" "}
-          {targetStation ? stationData.data?.city.name : cityName}
+          {targetStation ? stationData.data?.city?.name : cityName}
         </div>
         <div className="text-[18px] md:text-[22px] text-soft-blue">
-          Air quality index (AQI) and PM2.5 air pollution in {cityName}
+          Air quality index (AQI) and PM2.5 air pollution
         </div>
         {unknown ? (
           <div className="flex gap-2 text-[16px] md:text-[18px] mt-12 justify-center items-center font-semibold">

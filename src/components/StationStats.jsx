@@ -2,14 +2,14 @@ import React from "react";
 import Statif from "../functions/Statif";
 import AqiCharts from "../components/AqiCharts";
 
-const StationStats = ({ aqi, city }) => {
+const StationStats = ({ aqi }) => {
   return (
     <div className="w-full bg-white text-[16px] md:text-[18px] text-very-dark-grey p-5 rounded-bl-md rounded-br-md shadow-md">
       <div>
         <div className="font-medium">
           <div className="text-soft-blue">Overview</div>
           <div className="text-[18px] md:text-[22px] text-very-light-grey">
-            Real-time Monitoring of Air Quality Parameters in {city}
+            Real-time Monitoring of Air Quality Parameters
           </div>
         </div>
         <div className="stationStatsBox md:overflow-x-hidden overflow-x-scroll flex pb-3 mt-5">
@@ -39,7 +39,7 @@ const StationStats = ({ aqi, city }) => {
         <div className="font-medium">
           <div className="text-soft-blue">Forecast</div>
           <div className="text-[18px] md:text-[22px] text-very-light-grey">
-            Predictions of future levels of air pollution in {city}
+            Predictions of future levels of air pollution
           </div>
         </div>
         <div className="w-full mt-5">
