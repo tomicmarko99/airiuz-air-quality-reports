@@ -41,29 +41,42 @@ const StationStats = ({ aqi }) => {
             <div className="px-3 py-1 w-full text-center bg-[#E5E5E5]">
               PM2.5
             </div>
-            <div className="px-3 py-1">{aqi?.iaqi?.pm25.v}</div>
+
+            <div className="px-3 py-1">
+              {aqi?.iaqi?.pm25 ? aqi?.iaqi?.pm25?.v : "NDF"}
+            </div>
           </div>
           <div className="flex flex-col items-center">
             <div className=" px-3 py-1 w-full text-center bg-[#E5E5E5]">
               PM10
             </div>
-            <div className="px-3 py-1">{aqi?.iaqi?.pm10.v}</div>
+            <div className="px-3 py-1">
+              {aqi?.iaqi?.pm10 ? aqi?.iaqi?.pm10?.v : "NDF"}
+            </div>
           </div>
           <div className="flex flex-col items-center">
             <div className="px-3 py-1 w-full text-center bg-[#E5E5E5]">O3</div>
-            <div className="px-3 py-1">{aqi?.iaqi?.o3.v}</div>
+            <div className="px-3 py-1">
+              {aqi?.iaqi?.o3 ? aqi?.iaqi?.o3?.v : "NDF"}
+            </div>
           </div>
           <div className="flex flex-col items-center">
             <div className="px-3 py-1 w-full text-center bg-[#E5E5E5]">NO2</div>
-            <div className="px-3 py-1">{aqi?.iaqi?.no2.v}</div>
+            <div className="px-3 py-1">
+              {aqi?.iaqi?.no2 ? aqi?.iaqi?.no2?.v : "NDF"}
+            </div>
           </div>
           <div className="flex flex-col items-center">
             <div className="px-3 py-1 w-full text-center bg-[#E5E5E5]">SO2</div>
-            <div className="px-3 py-1">{aqi?.iaqi?.so2.v}</div>
+            <div className="px-3 py-1">
+              {aqi?.iaqi?.so2 ? aqi?.iaqi?.so2?.v : "NDF"}
+            </div>
           </div>
           <div className="flex flex-col items-center">
             <div className="px-3 py-1 w-full text-center bg-[#E5E5E5]">CO</div>
-            <div className="px-3 py-1">{aqi?.iaqi?.co.v}</div>
+            <div className="px-3 py-1">
+              {aqi?.iaqi?.co ? aqi?.iaqi?.co?.v : "NDF"}
+            </div>
           </div>
         </div>
       </div>
