@@ -88,7 +88,7 @@ const StationStats = ({ aqi }) => {
             Tips for protecting yourself from air pollution
           </div>
         </div>
-        <HealthRecommendations />
+        <HealthRecommendations aqi={aqi?.aqi} />
       </div>
       <div className="mt-5">
         <div className="font-medium">

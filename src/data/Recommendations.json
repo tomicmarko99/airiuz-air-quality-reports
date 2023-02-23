@@ -1,11 +1,11 @@
 {
   "good": [
     {
-      "image": "window",
+      "image": "owindow",
       "recommendation": "Improve indoor air quality by opening windows to allow fresh, clean air to circulate"
     },
     {
-      "image": "window",
+      "image": "bicycle",
       "recommendation": "Indulge in outdoor pursuits and savor the natural environment"
     }
   ],
