@@ -1,6 +1,7 @@
 import React from "react";
 import Statif from "../functions/Statif";
 import AqiCharts from "../components/AqiCharts";
+import HealthRecommendations from "./HealthRecommendations";
 
 const StationStats = ({ aqi }) => {
   return (
@@ -9,7 +10,7 @@ const StationStats = ({ aqi }) => {
         <div className="font-medium">
           <div className="text-soft-blue">Overview</div>
           <div className="text-[18px] md:text-[22px] text-very-light-grey">
-            Real-time Monitoring of Air Quality Parameters
+            Real-time monitoring of air quality parameters
           </div>
         </div>
         <div className="stationStatsBox md:overflow-x-hidden overflow-x-scroll flex pb-3 mt-5">
@@ -79,6 +80,15 @@ const StationStats = ({ aqi }) => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="w-full mt-5">
+        <div className="font-medium">
+          <div className="text-soft-blue">Recommendations</div>
+          <div className="text-[18px] md:text-[22px] text-very-light-grey">
+            Tips for protecting yourself from air pollution
+          </div>
+        </div>
+        <HealthRecommendations />
       </div>
       <div className="mt-5">
         <div className="font-medium">

@@ -1,0 +1,94 @@
+{
+  "good": [
+    {
+      "image": "window",
+      "recommendation": "Improve indoor air quality by opening windows to allow fresh, clean air to circulate"
+    },
+    {
+      "image": "window",
+      "recommendation": "Indulge in outdoor pursuits and savor the natural environment"
+    }
+  ],
+  "moderate": [
+    {
+      "image": "cwindow",
+      "recommendation": "Maintain indoor air purity by closing windows to prevent outdoor pollutants from entering"
+    },
+    {
+      "image": "bicycle",
+      "recommendation": "To minimize exposure to air pollution, sensitive groups should limit outdoor exercise"
+    }
+  ],
+  "ufsg": [
+    {
+      "image": "facemask",
+      "recommendation": "If you're in a sensitive group, wear a mask outside to reduce exposure to air pollution"
+    },
+    {
+      "image": "purifier",
+      "recommendation": "Improve your indoor air quality by utilizing an air purifier."
+    },
+    {
+      "image": "cwindow",
+      "recommendation": "Protect indoor air quality by keeping windows closed to prevent outdoor pollutants"
+    },
+    {
+      "image": "nobicycle",
+      "recommendation": "Limit outdoor exercise to reduce air pollution exposure for optimal health."
+    }
+  ],
+  "unhealthy": [
+    {
+      "image": "facemask",
+      "recommendation": "Wear a mask outdoors for better respiratory health."
+    },
+    {
+      "image": "purifier",
+      "recommendation": "Improve your indoor air quality by utilizing an air purifier."
+    },
+    {
+      "image": "cwindow",
+      "recommendation": "Protect indoor air quality by keeping windows closed to prevent outdoor pollutants"
+    },
+    {
+      "image": "nobicycle",
+      "recommendation": "Protect your health by avoiding outdoor exercise and minimizing exposure to air pollution."
+    }
+  ],
+  "vuh": [
+    {
+      "image": "facemask",
+      "recommendation": "Wear a mask outdoors for better respiratory health."
+    },
+    {
+      "image": "purifier",
+      "recommendation": "Improve your indoor air quality by utilizing an air purifier."
+    },
+    {
+      "image": "cwindow",
+      "recommendation": "Protect indoor air quality by keeping windows closed to prevent outdoor pollutants"
+    },
+    {
+      "image": "nobicycle",
+      "recommendation": "Protect your health by avoiding outdoor exercise and minimizing exposure to air pollution."
+    }
+  ],
+  "hazardous": [
+    {
+      "image": "facemask",
+      "recommendation": "Wear a mask outdoors for better respiratory health."
+    },
+    {
+      "image": "purifier",
+      "recommendation": "Improve your indoor air quality by utilizing an air purifier."
+    },
+    {
+      "image": "cwindow",
+      "recommendation": "Protect indoor air quality by keeping windows closed to prevent outdoor pollutants"
+    },
+    {
+      "image": "nobicycle",
+      "recommendation": "Protect your health by avoiding outdoor exercise and minimizing exposure to air pollution."
+    }
+  ]
+}
