@@ -5,9 +5,13 @@ import { FaInstagramSquare, FaPinterestSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="w-full flex flex-col items-center bg-medium-blue">
-      <div className="w-full bg-dark-blue text-soft-yellow font-semibold flex justify-center px-5 py-2">
+      <a
+        href="https://aqicn.org/api/"
+        target="_blank"
+        className="w-full bg-dark-blue text-soft-yellow font-semibold flex justify-center px-5 py-2"
+      >
         Powered by WAQI Air Quality Data
-      </div>
+      </a>
       <div className="w-full px-5 max-w-[1080px] py-12 grid grid-cold-1 md:grid-cols-2 gap-5 md:gap-[100px]">
         <div className="flex flex-col justify-center">
           <div className="text-[18px] md:text-[22px] text-very-dark-white mb-3 font-semibold">
