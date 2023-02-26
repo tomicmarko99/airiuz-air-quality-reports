@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "../assets/airiuz-logo.png";
+import Logo from "../assets/Logo.png";
 import { AiOutlineMenu, AiOutlineMinus, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
@@ -45,8 +45,8 @@ const Navbar = () => {
       className="text-very-dark-white fixed left-0 top-0 z-20 w-full flex justify-center px-5 py-3 ease-in duration-50"
     >
       <div className="w-full max-w-[1080px] flex justify-between items-center">
-        <Link to="/" className="text-xl  font-medium">
-          AIRIUZ
+        <Link to="/" className="text-xl font-medium flex items-center gap-2">
+          <img src={Logo} alt="" className="w-[30px]" /> Airiuz
         </Link>
         <div className="hidden md:flex gap-6 text-xl font-[500]">
           <Link to="/about" className="hover:text-white">
