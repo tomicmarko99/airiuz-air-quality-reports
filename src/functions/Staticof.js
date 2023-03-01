@@ -8,15 +8,15 @@ import hazardousIcon from "../assets/hazardous-icon.svg";
 const Staticof = (aqi) => {
   if (aqi >= 0 && aqi <= 50) {
     return goodIcon;
-  } else if (aqi >= 51 && aqi <= 100) {
+  } else if (aqi >= 51 && aqi < 100) {
     return moderateIcon;
-  } else if (aqi >= 101 && aqi <= 150) {
+  } else if (aqi >= 101 && aqi < 150) {
     return ufsgIcon;
-  } else if (aqi >= 151 && aqi <= 200) {
+  } else if (aqi >= 151 && aqi < 200) {
     return unhealthyIcon;
-  } else if (aqi >= 201 && aqi <= 300) {
+  } else if (aqi >= 201 && aqi < 300) {
     return vuhIcon;
-  } else if (aqi > 300) {
+  } else if (aqi >= 300) {
     return hazardousIcon;
   }
 };
