@@ -28,7 +28,7 @@ const HeroMap = ({ aqiData }) => {
         scrollWheelZoom={false}
       >
         <TileLayer
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+          url="http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
           attribution='&copy; <a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         <TileLayer url="https://tiles.aqicn.org/tiles/usepa-pm25/{z}/{x}/{y}.png?token=fe7f80903a47cd16d31da36d7bee8aa8d5eee45f" />
